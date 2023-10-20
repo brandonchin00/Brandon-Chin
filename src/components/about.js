@@ -1,12 +1,14 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import { animated } from "../pages/content.js";
+import "./about.css";
 
 const About = () => {
   return (
-    <div>
-      <h2>HI, MY NAME IS BRANDON</h2>
-      <h1>
+    <div className="container">
+      <p className="top">MY NAME IS BRANDON</p>
+      <p className="solid-text">I AM </p>
+      <p className="moving-text">
         <Typewriter
           options={{
             strings: [
@@ -20,7 +22,7 @@ const About = () => {
             deleteSpeed: 10,
           }}
         />
-      </h1>
+      </p>
     </div>
   );
 };

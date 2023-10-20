@@ -1,0 +1,17 @@
+.container {
+  padding: 1em;
+  display: flex;
+  font-family: Cinzel;
+  font-size: 1.5pc;
+}
+.top {
+  text-align: ;
+}
+
+.solid-text {
+  padding-right: 0.25em;
+  text-align: left;
+}
+.moving-text {
+  text-align: right;
+}
