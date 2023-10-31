@@ -17,14 +17,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.logo {
-  padding: 5px 15px;
-  margin: 0;
-  border: unset;
-  font-size: 1.5rem;
-  font-family: Marcellus;
-  line-height: 2;
-  height: 50px;
-  z-index: 1000;
-}
