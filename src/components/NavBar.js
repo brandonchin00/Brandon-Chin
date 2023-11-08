@@ -12,18 +12,18 @@ export function Navbar() {
   return (
     <nav>
       <a className="logo" href="index.html">
-        Place Holder
+        brandon.c
       </a>
       <div>
         <ul className={clicked ? "navbar active" : "navbar"}>
           <li>
-            <a href="index.html">ABOUT</a>
+            <a href="index.html">about.</a>
           </li>
           <li>
-            <a href="index.html">WORK</a>
+            <a href="index.html">work.</a>
           </li>
           <li>
-            <a href="index.html">CONTACT</a>
+            <a href="index.html">contact.</a>
           </li>
         </ul>
       </div>

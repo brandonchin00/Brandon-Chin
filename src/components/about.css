@@ -1,17 +1,30 @@
 .container {
   padding: 1em;
   display: flex;
-  font-family: Cinzel;
-  font-size: 1.5pc;
+  font-family: sans-serif;
+  font-size: 50px;
+  margin-right: 10px;
 }
-.top {
-  text-align: center;
+.container li {
+  list-style-type: none;
 }
 
-.solid-text {
-  padding-right: 0.25em;
-  text-align: left;
+.image-container {
+  z-index: 1;
+  position: absolute;
+  float: right;
+  margin-left: 65%; /* Adjust the margin as needed for spacing */
 }
-.moving-text {
-  text-align: right;
+
+@media screen and (min-width: 770px) {
+  #image-1 {
+    max-width: 190px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #image-1 {
+    max-width: 100px;
+    border-radius: 15px;
+  }
 }

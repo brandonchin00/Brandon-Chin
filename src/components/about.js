@@ -1,14 +1,23 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { animated } from "../pages/content.js";
+import { animated } from "../adjustment/content.js";
+import "./button.css";
 import "./about.css";
+import image1 from "../adjustment/image.jpeg";
 
 const About = () => {
   return (
     <div className="container">
-      <p className="top">MY NAME IS BRANDON</p>
-      <p className="solid-text">I AM </p>
-      <p className="moving-text">
+      <ul>
+        <li className="top">
+          Hi!{" "}
+          <span id="wave" role="img" aria-label="wave">
+            👋
+          </span>
+        </li>
+        <li className="Bottonm"> I'm Brandon</li>
+        <li className="Between">and</li>
+        <li className="solid-text">I'm a </li>
         <Typewriter
           options={{
             strings: [
@@ -22,9 +31,20 @@ const About = () => {
             deleteSpeed: 10,
           }}
         />
-      </p>
+        <ul className="button-container">
+          <button className="button button-1">Download Resume</button>
+          <button className="button effect">Learn More</button>
+        </ul>
+      </ul>
+      <div className="image-container">
+        <img id="image-1" src={image1} alt="" />
+      </div>
     </div>
   );
 };
 
 export default About;
+
+// Fix the CSS Naming to Allow multi CSS Reuse
+// Fix the Section (Home, Section 1)
+// Ensure that the @media is for a specific media
