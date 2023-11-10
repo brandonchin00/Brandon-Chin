@@ -10,9 +10,17 @@ export function Navbar() {
     setClicked(!clicked);
   };
   return (
-    <nav>
+    <nav className="nav-wrapper">
       <a className="logo" href="index.html">
-        brandon.c
+        <span id="letter">b</span>
+        <span id="letter">r</span>
+        <span id="letter">a</span>
+        <span id="letter">n</span>
+        <span id="letter">d</span>
+        <span id="letter">o</span>
+        <span id="letter">n</span>
+        <span id="letter">.</span>
+        <span id="letter">c</span>
       </a>
       <div>
         <ul className={clicked ? "navbar active" : "navbar"}>

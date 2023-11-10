@@ -6,6 +6,18 @@ nav {
   padding: 20px 50px;
 }
 
+#letter {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+#letter:hover {
+  transform: translateY(-2px);
+}
+
+.nav-wrapper {
+  border: 2px solid black;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
