@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./NavBarStyle.css";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,17 +22,26 @@ export function Navbar() {
         <span id="letter">n</span>
         <span id="letter">.</span>
         <span id="letter">c</span>
+        <span id="letter">h</span>
+        <span id="letter">i</span>
+        <span id="letter">n</span>
       </a>
       <div>
         <ul className={clicked ? "navbar active" : "navbar"}>
           <li>
-            <a href="index.html">about.</a>
+            <Link to="intro" smooth={true} duration={500}>
+              about.
+            </Link>
           </li>
           <li>
-            <a href="index.html">work.</a>
+            <Link to="home" smooth={true} duration={500}>
+              work.
+            </Link>
           </li>
           <li>
-            <a href="index.html">contact.</a>
+            <Link to="home" smooth={true} duration={500}>
+              contact.
+            </Link>
           </li>
         </ul>
       </div>

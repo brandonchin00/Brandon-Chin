@@ -1,0 +1,11 @@
+#image-2 {
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.figure-container {
+  display: block;
+  border: 2px solid black;
+  background: blue;
+  margin: 12% 5%;
+}

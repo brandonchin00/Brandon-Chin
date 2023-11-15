@@ -78,3 +78,4 @@ all dependencies needed to download
 5. npm i --save @fortawesome/free-regular-svg-icons
 6. npm i --save @fortawesome/free-brands-svg-icons
 7. npm i --save @fortawesome/react-fontawesome@latests
+8. npm install react-scroll

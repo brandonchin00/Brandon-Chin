@@ -1,31 +1,36 @@
-.story-wrapper {
-  box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
-  padding: 20px;
-  border: 2px solid black;
-}
-
 .story-container {
-  border: 2px black solid;
+  box-sizing: border-box;
+  border: 2px blue solid;
   padding: 1.5em;
-  width: 50vw;
-  margin: 10% 25%;
+  width: 37vw;
+  margin: 18% 5%;
 }
 
-#story-title {
+.paragraph {
+  color: black;
+  font-size: 1.4rem;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+/* #story-title {
   padding-bottom: 1em;
   align-items: left;
   -webkit-text-stroke: 1px black;
   color: transparent;
   font-size: 2.5em;
-}
+} */
 
-#story-space {
+/* #story-space {
   display: block;
   height: 2.5em;
-}
+} */
 
-#story-college {
+/* #story-college {
   color: blue;
-}
+} */

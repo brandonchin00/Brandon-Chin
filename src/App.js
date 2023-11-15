@@ -1,17 +1,31 @@
-import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home.js";
 import Intro from "./pages/about.js";
+import React, { useEffect, useState } from "react";
 
 export default function App() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const sectionStyle = {
+    backgroundColor: scrollPosition > window.innerHeight ? "#000" : "#fff",
+    transition: "background-color 0.5s ease",
+  };
+
   return (
-    // <Routes>
-    //   <Route path="/" element={<Home />} />;
-    //   <Route path="/" element={<About />} />;
-    //   {/* so this route thing is for other pages not for when you scroll down.  */}
-    // </Routes>
     <div>
-      <Home />
-      <Intro />
+      <Home className="section1" />
+      <Intro className="section2" style={sectionStyle} />
     </div>
   );
 }
