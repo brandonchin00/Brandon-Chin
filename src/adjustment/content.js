@@ -30,6 +30,11 @@ const content = [
     date: "2021",
   },
   {
+    title: "Marketing Intern at The Human Element",
+    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
+    date: "2019",
+  },
+  {
     title: "Audit Intern at Changing the Present",
     text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     date: "2016",
