@@ -1,8 +1,8 @@
 .start-container {
   display: block;
   box-sizing: border-box;
-  border: 2px solid black;
-  width: 700px;
+  /* border: 2px solid black; */
+  width: 75vw;
   margin: 5% auto;
   overflow: hidden;
 }
@@ -10,6 +10,7 @@
 .start-container h1 {
   font-size: 70px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .start-container p {

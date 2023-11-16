@@ -9,35 +9,39 @@ const Tile = () => {
 export default Tile;
 
 function Accordion({ data }) {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  function handleToggle(index) {
+    setOpenIndex(openIndex === index ? null : index);
+  }
+
   return (
     <div className="accordion">
       {data.map((el, i) => (
         <AccordionItem
+          key={el.title}
+          index={i}
+          isOpen={openIndex === i}
           title={el.title}
           text={el.text}
-          num={i}
           date={el.date}
-          key={el.title}
+          handleToggle={handleToggle}
         />
       ))}
     </div>
   );
 }
 
-function AccordionItem({ num, title, text, date }) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function handleToggle() {
-    setIsOpen((isOpen) => !isOpen);
+function AccordionItem({ index, isOpen, title, text, date, handleToggle }) {
+  function handleClick() {
+    handleToggle(index);
   }
 
   return (
-    <div className={`item ${isOpen ? "open" : ""}`} onClick={handleToggle}>
-      <p className="number">{num < 9 ? `0${num + 1}` : num + 1}</p>
+    <div className={`item ${isOpen ? "open" : ""}`} onClick={handleClick}>
+      <p className="number">{index < 9 ? `0${index + 1}` : index + 1}</p>
       <p className="title">{title}</p>
       <p className="date">{date}</p>
-      <p className="icon">{isOpen ? "-" : "+"}</p>
-
       {isOpen && <div className="content-box">{text}</div>}
     </div>
   );

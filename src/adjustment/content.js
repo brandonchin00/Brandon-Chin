@@ -8,24 +8,31 @@ const animated = {
 
 const content = [
   {
-    title: "Product Management Intern @ Publicis Sapient",
+    title: "Product Management Intern at Publicis Sapient",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quaerat temporibus quas dolore provident nisi ut aliquid ratione beatae sequi aspernatur veniam repellendus.",
     date: "2023",
+    company: "Publicis Sapient",
+    companyLink: "https://www.publicissapient.com",
   },
   {
-    title: "Product Management Intern @ Mobilize.IT",
+    title: "Product Management Intern at Mobilize.IT",
     text: "Pariatur recusandae dignissimos fuga voluptas unde optio nesciunt commodi beatae, explicabo natus.",
     date: "2022",
   },
   {
-    title: "Business Development Intern @ Echo3d",
+    title: "Business Development Intern at Echo3d",
     text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     date: "2022",
   },
   {
-    title: "Financial Analyst Intern @ Digital Factory",
+    title: "Financial Analyst Intern at Digital Factory",
     text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     date: "2021",
+  },
+  {
+    title: "Audit Intern at Changing the Present",
+    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
+    date: "2016",
   },
 ];
 
