@@ -7,7 +7,7 @@ const Story = () => {
   return (
     <div className="story-container">
       {/* <h1 id="story-title">About Me</h1> */}
-      <p>
+      <div>
         <h1>CHIN, BRANDON</h1>
         <div className="title-container">
           <p>I'M A{"\u00A0"}</p>
@@ -27,7 +27,6 @@ const Story = () => {
         </div>
         <span id="story-space" />
         <span id="story-space" />
-        <span id="story-space" />
         <span className="paragraph paragraph-1">
           Hi there! I'm Brandon, a 22 year-old from New York City, currently
           studying at Babson College. I'm currently looking for new job
@@ -44,7 +43,7 @@ const Story = () => {
         <span className="paragraph paragraph-3">
           To better articulate it, I'll show you what I've been doing. 😊
         </span>
-      </p>
+      </div>
     </div>
   );
 };

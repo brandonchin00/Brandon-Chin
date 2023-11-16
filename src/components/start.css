@@ -5,6 +5,8 @@
   width: 75vw;
   margin: 5% auto;
   overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
 }
 
 .start-container h1 {

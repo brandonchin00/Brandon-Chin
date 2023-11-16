@@ -1,20 +1,29 @@
 @keyframes wave {
   0%,
-  100% {
+  20% {
+    transform: rotate(30deg);
+  }
+  40% {
+    transform: rotate(15deg);
+  }
+  60% {
     transform: rotate(0deg);
   }
-  25% {
-    transform: rotate(-30deg);
+  80% {
+    transform: rotate(15deg);
   }
-  75% {
+  100% {
     transform: rotate(30deg);
   }
 }
 
-#wave {
+#wave:hover {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 1em;
   animation: wave 1s infinite;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>✋</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 /* wave element */
 
@@ -30,7 +39,8 @@
 
 .word-container {
   /* border: 2px solid black; */
-  margin: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .container li {
@@ -39,7 +49,8 @@
 
 .image-container {
   /* border: 2px solid pink; */
-  margin: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
 }
 
 #image-1 {

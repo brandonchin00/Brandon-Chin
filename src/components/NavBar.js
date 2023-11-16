@@ -29,13 +29,18 @@ export function Navbar() {
       <div>
         <ul className={clicked ? "navbar active" : "navbar"}>
           <li>
-            <Link to="intro" smooth={true} duration={500}>
+            <Link to="introSection" smooth={true} duration={500}>
               about.
             </Link>
           </li>
           <li>
-            <Link to="home" smooth={true} duration={500}>
+            <Link to="workSection" smooth={true} duration={500}>
               work.
+            </Link>
+          </li>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              project.
             </Link>
           </li>
           <li>

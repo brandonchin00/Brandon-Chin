@@ -4,7 +4,7 @@ import "./story.css";
 
 const Start = () => {
   return (
-    <div className="start-container">
+    <div className="start-container" id="workSection">
       <h1>EXPERIENCES</h1>
       <p>
         My expedition into the jungle of professional experience commenced in

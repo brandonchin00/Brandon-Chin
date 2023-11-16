@@ -7,8 +7,9 @@
   /* border: 2px blue solid; */
   display: flex;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .experience-wrapper {
-  /* border: 2px solid blue; */
+  /* background-color: grey; */
 }
