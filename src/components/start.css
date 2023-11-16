@@ -1,0 +1,17 @@
+.start-container {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 700px;
+  margin: 5% auto;
+  overflow: hidden;
+}
+
+.start-container h1 {
+  font-size: 70px;
+  overflow: hidden;
+}
+
+.start-container p {
+  font-size: 18px;
+}
