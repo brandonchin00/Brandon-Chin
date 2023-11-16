@@ -2,6 +2,7 @@ import React from "react";
 import "./button.css";
 import "./about.css";
 import image1 from "../adjustment/image.jpeg";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -20,7 +21,9 @@ const About = () => {
         </ul>
         <div className="button-container">
           <button className="button button-1">Download Resume</button>
-          <button className="button effect">Learn More</button>
+          <Link to="introSection" smooth={true} duration={500}>
+            <button className="button effect">Learn More</button>
+          </Link>
         </div>
       </div>
       <div className="image-container">

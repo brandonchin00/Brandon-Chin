@@ -4,6 +4,7 @@ const animated = {
   first: "PRODUCT MANAGER",
   second: "FRONT-END DEVELOPER",
   third: "BUSINESS STUDENT",
+  fourth: "RUNNER 👟",
 };
 
 const content = [

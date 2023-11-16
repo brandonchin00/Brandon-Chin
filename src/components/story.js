@@ -14,7 +14,12 @@ const Story = () => {
           <div className="text">
             <Typewriter
               options={{
-                strings: [animated.first, animated.second, animated.third],
+                strings: [
+                  animated.first,
+                  animated.second,
+                  animated.third,
+                  animated.fourth,
+                ],
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 10,
