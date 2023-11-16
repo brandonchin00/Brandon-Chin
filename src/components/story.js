@@ -11,19 +11,16 @@ const Story = () => {
         <h1>CHIN, BRANDON</h1>
         <div className="title-container">
           <p>I'M A{"\u00A0"}</p>
-          <Typewriter
-            options={{
-              strings: [
-                animated.first,
-                animated.second,
-                animated.third,
-                animated.fourth,
-              ],
-              autoStart: true,
-              loop: true,
-              deleteSpeed: 10,
-            }}
-          />
+          <div className="text">
+            <Typewriter
+              options={{
+                strings: [animated.first, animated.second, animated.third],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 10,
+              }}
+            />
+          </div>
         </div>
         <span id="story-space" />
         <span id="story-space" />
