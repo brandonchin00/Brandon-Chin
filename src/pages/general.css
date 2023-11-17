@@ -12,4 +12,10 @@
 
 .experience-wrapper {
   /* background-color: grey; */
+  margin-bottom: 10%;
+}
+
+.project-wrapper {
+  height: auto;
+  margin: 0 11%;
 }

@@ -42,4 +42,36 @@ const content = [
   },
 ];
 
-export { logo, animated, content };
+const projects = [
+  {
+    image:
+      "https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg",
+    title: "iOS and Android Application",
+    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
+    tags: "Figma iOS Android",
+  },
+  {
+    image: "https://cdn-icons-png.flaticon.com/512/81/81609.png",
+    title: "Website Development",
+    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
+    tags: "React.js Web SEO Canva",
+  },
+  {
+    image:
+      "https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg",
+    title: "Social Media Management",
+    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
+    tags: "Instagram Facebook Tiktok",
+  },
+  {
+    image:
+      "https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg",
+    title: "Social Media Management",
+    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
+    tags: "Instagram Facebook Tiktok",
+  },
+];
+
+const titleOne = [{ title: "EXPERIENCES" }];
+const titleTwo = [{ title: "PROJECTS" }];
+export { logo, animated, content, projects, titleOne, titleTwo };

@@ -39,7 +39,7 @@ export function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="home" smooth={true} duration={500}>
+            <Link to="projectSection" smooth={true} duration={500}>
               project.
             </Link>
           </li>
