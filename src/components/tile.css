@@ -15,7 +15,6 @@ body {
   margin: 5% auto;
   display: flex;
   flex-direction: column;
-  gap: 24px;
 }
 
 .item {

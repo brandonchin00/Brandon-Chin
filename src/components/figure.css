@@ -6,11 +6,12 @@
 
 .figure-container {
   display: block;
+  box-sizing: content-box;
   border: 2px solid black;
+  padding: 10px;
   border-radius: 5%;
   margin-top: 15%;
   margin-right: 12%;
   margin-bottom: 15%;
   object-fit: contain;
-  max-width: 20vw;
 }
