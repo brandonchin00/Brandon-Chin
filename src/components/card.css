@@ -6,6 +6,7 @@
 
 .card-container {
   border: 2px solid black;
+  border-radius: 5%;
   display: flex;
   width: 25vw;
   height: auto;
