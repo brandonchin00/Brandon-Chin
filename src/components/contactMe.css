@@ -1,0 +1,40 @@
+.contact-container {
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 20% auto;
+}
+
+.message-container {
+  /* border: 2px solid blue; */
+  box-sizing: content-box;
+  padding: 20px;
+  max-width: 75vw;
+  height: auto;
+  margin: 0 12.5%;
+}
+#p-1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#p-2 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#p-3 {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.contact-button-container {
+  /* border: 2px solid red; */
+  box-sizing: content-box;
+  padding: 20px;
+  max-width: 75vw;
+  margin: 0 12.5%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}

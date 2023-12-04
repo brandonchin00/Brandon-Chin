@@ -29,19 +29,21 @@ function CardItem({ title, text, tags, image }) {
   return (
     <div className="card-wrapper">
       <div className="card-container">
-        <div className="imageCard-container">
-          <img src={image} alt="" />
-        </div>
-        <div className="text-container">
-          <span className="card-title">{title}</span>
-          <span className="card-text">{text}</span>
-        </div>
-        <div className="tag-container">
-          {tagUpdated.map((tag, index) => (
-            <div key={index} className="tag">
-              {tag}
-            </div>
-          ))}
+        <div className="additional-card">
+          <div className="imageCard-container">
+            <img src={image} alt="" />
+          </div>
+          <div className="text-container">
+            <span className="card-title">{title}</span>
+            <span className="card-text">{text}</span>
+          </div>
+          <div className="tag-container">
+            {tagUpdated.map((tag, index) => (
+              <div key={index} className="tag">
+                {tag}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       {/* {console.log(tagUpdated)} */}

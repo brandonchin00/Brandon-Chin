@@ -73,7 +73,7 @@ body {
 /* OPEN STATE */
 .open {
   transform: 0.5s;
-  border-top: 4px solid rgb(0, 191, 255);
+  /* border-top: 4px solid rgb(0, 191, 255); */
 }
 
 .open .number,

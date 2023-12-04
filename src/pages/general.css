@@ -19,3 +19,8 @@
   height: auto;
   padding: 11.3%;
 }
+
+.contact-wrapper {
+  height: 100vh;
+  border: 2px blue solid;
+}
