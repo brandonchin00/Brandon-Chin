@@ -12,40 +12,26 @@ export function Navbar() {
   };
   return (
     <nav className="nav-wrapper">
-      <a className="logo" href="index.html">
-        <span id="letter">b</span>
-        <span id="letter">r</span>
-        <span id="letter">a</span>
-        <span id="letter">n</span>
-        <span id="letter">d</span>
-        <span id="letter">o</span>
-        <span id="letter">n</span>
-        <span id="letter">.</span>
-        <span id="letter">c</span>
-        <span id="letter">h</span>
-        <span id="letter">i</span>
-        <span id="letter">n</span>
-      </a>
-      <div>
+      <div className="nav-wrapper2">
         <ul className={clicked ? "navbar active" : "navbar"}>
-          <li>
+          <li className="buttonAbout">
             <Link to="introSection" smooth={true} duration={500}>
-              about.
+              About
             </Link>
           </li>
           <li>
             <Link to="workSection" smooth={true} duration={500}>
-              work.
+              Work
             </Link>
           </li>
           <li>
             <Link to="projectSection" smooth={true} duration={500}>
-              project.
+              Projects
             </Link>
           </li>
-          <li>
+          <li className="buttonContact">
             <Link to="contactSection" smooth={true} duration={500}>
-              contact.
+              Resume
             </Link>
           </li>
         </ul>
@@ -60,3 +46,20 @@ export function Navbar() {
     </nav>
   );
 }
+
+// {
+//   /* <a className="logo" href="index.html">
+//         <span id="letter">b</span>
+//         <span id="letter">r</span>
+//         <span id="letter">a</span>
+//         <span id="letter">n</span>
+//         <span id="letter">d</span>
+//         <span id="letter">o</span>
+//         <span id="letter">n</span>
+//         <span id="letter">.</span>
+//         <span id="letter">c</span>
+//         <span id="letter">h</span>
+//         <span id="letter">i</span>
+//         <span id="letter">n</span>
+//       </a> */
+// }

@@ -1,21 +1,27 @@
 .story-container {
   box-sizing: border-box;
-  /* border: 2px blue solid; */
   padding: 1.5em;
-  width: 43vw;
+  margin-left: 15%;
   margin-top: 15%;
-  margin-left: 12%;
-  padding: 0px;
   overflow: hidden;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
 .story-container h1 {
   font-size: 2rem;
 }
 
 .paragraph {
-  color: black;
+  color: var(--secondary--);
+  font-family: var(--tertiary-font);
   font-size: 1.2rem;
+}
+
+.paragraph-1 {
+  color: var(--quinary--);
 }
 
 .title-container {
@@ -28,13 +34,56 @@
 }
 
 .text {
-  color: rgb(0, 191, 255);
+  color: var(--quaternary--);
+}
+
+.text-font {
+  font-family: var(--secondary-font);
+  font-size: 40px;
 }
 #story-space {
   display: block;
   height: 1em;
 }
+#image-2 {
+  width: 100%; /* Ensures the image fills its container */
+  height: auto; /* Maintains the aspect ratio */
+  display: block; /* Removes any extra space under the image */
+}
 
-.paragraph-1 {
-  font-weight: bold;
+.figure-container {
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  margin-right: 15%;
+  margin-top: 15%; /* Centers the container horizontally */
+  padding: 20px; /* Adjust the padding to set the desired margin */
+  box-sizing: border-box; /* Includes padding in the total width */
+  overflow: hidden;
+}
+
+#title-About {
+  color: var(--tertiary--);
+  font-family: var(--main-font);
+  font-size: 50px;
+}
+#college {
+  text-decoration: none;
+  color: var(--quaternary--);
+  position: relative;
+  z-index: 1;
+}
+
+#college::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--quaternary--);
+  bottom: -1px;
+  left: 0;
+  z-index: -1;
+  transition: width 0.3s ease;
+}
+
+#college:hover::before {
+  width: 100%;
 }

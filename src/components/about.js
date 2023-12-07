@@ -1,7 +1,7 @@
 import React from "react";
 import "./button.css";
 import "./about.css";
-import image1 from "../adjustment/image.jpeg";
+// import image1 from "../adjustment/image.jpeg";
 import { Link } from "react-scroll";
 
 const About = () => {
@@ -9,26 +9,34 @@ const About = () => {
     <div className="container">
       <div className="word-container">
         <ul>
-          <li className="top">
+          <li className="text-T" id="name">
             Hello!{" "}
             <span id="wave" role="img" aria-label="wave">
               👋
-            </span>
+            </span>{" "}
+            My name is{" "}
           </li>
-          <li className="context">I'm Brandon</li>
-          <li className="context">and</li>
-          <li className="context">I'm a Product Manager</li>
+          <li id="text-P">Brandon Chin</li>
+          <li id="text-S">
+            I lead software teams in agile methodology to build products
+          </li>
+          <li className="text-T">
+            As a Product Manager, my emphasis lies in user experience and
+            leveraging data analysis. I extract valuable insights from large
+            datasets and utilize Figma to craft designs, allowing me to swiftly
+            transform ideas into minimum viable products.
+          </li>
         </ul>
         <div className="button-container">
           <button className="button button-1">Download Resume</button>
           <Link to="introSection" smooth={true} duration={500}>
-            <button className="button effect">Learn More</button>
+            <button className="button button-2 effect">Learn More</button>
           </Link>
         </div>
       </div>
-      <div className="image-container">
+      {/* <div className="image-container">
         <img id="image-1" src={image1} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -79,3 +79,21 @@ all dependencies needed to download
 6. npm i --save @fortawesome/free-brands-svg-icons
 7. npm i --save @fortawesome/react-fontawesome@latests
 8. npm install react-scroll
+9.
+
+F8F9FA
+E9ECEF
+DEE2E6
+CED4DA
+ADB5BD
+6C757D
+6C757D
+495057
+343A40
+212529
+
+C5E2FF
+
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
