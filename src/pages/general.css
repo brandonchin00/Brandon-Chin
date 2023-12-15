@@ -1,13 +1,6 @@
-.home-wrapper {
-  height: 100vh;
-  overflow: hidden;
-}
-
 .about-wrapper {
-  /* border: 2px blue solid; */
-  display: flex;
+  border: 2px blue solid;
   justify-content: space-between;
-  height: 100vh;
   background-color: var(--primary--);
 }
 
@@ -17,11 +10,9 @@
 }
 
 .project-wrapper {
-  height: auto;
   padding: 11.3%;
 }
 
 .contact-wrapper {
-  height: 100vh;
   border: 2px blue solid;
 }

@@ -1,4 +1,4 @@
-import Tile from "../components/tile.js";
+import Tile from "../components/Accordion.js";
 import Start from "../components/start.js";
 import "./general.css";
 

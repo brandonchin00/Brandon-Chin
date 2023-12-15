@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { content } from "../adjustment/content.js";
-import "./tile.css";
+import "./Accordion.css";
 
 const Tile = () => {
   return <Accordion data={content} />;

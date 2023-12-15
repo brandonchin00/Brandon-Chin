@@ -3,10 +3,7 @@ import ContactMe from "../components/contactMe.js";
 const Contact = () => {
   return (
     <div className="contact-wrapper">
-      <ul>
-        {/* <Start3 /> */}
-        <ContactMe />
-      </ul>
+      <ContactMe />
     </div>
   );
 };
