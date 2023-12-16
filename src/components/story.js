@@ -6,14 +6,14 @@ import { animated } from "../adjustment/content.js";
 
 const Story = () => {
   return (
-    <div className="about-container">
+    <div className="About-Wrapper">
       {/* <h1 id="story-title">About Me</h1> */}
-      <div className="story-container">
-        <h1 id="title-About">About Me</h1>
-        <span id="story-space" />
-        <div className="title-container">
-          <p className="text-font">I'M A{"\u00A0"}</p>
-          <div className="text text-font">
+      <div className="Story-Container">
+        <h1 className="About-Title">About Me</h1>
+        <br />
+        <div className="Subtitle-Container">
+          <p className="Content-Sub">I'M A{"\u00A0"}</p>
+          <div className="Content-Type">
             <Typewriter
               options={{
                 strings: [
@@ -29,18 +29,18 @@ const Story = () => {
             />
           </div>
         </div>
-        <span id="story-space" />
-        <span id="story-space" />
-        <span className="paragraph paragraph-1">
+        <br />
+        <span className="Paragraph Paragraph-1">
           Hi there! I'm Brandon, a product manager from New York City, currently
           studying my for my undergraduate degree in Bachelor of Science at{" "}
-          <a id="college" href="https://www.babson.edu/" target="blank">
+          <a className="College" href="https://www.babson.edu/" target="blank">
             Babson College
           </a>
           .
         </span>
-        <span id="story-space" />
-        <span className="paragraph paragraph-2">
+        <br />
+        <br />
+        <span className="Paragraph Paragraph-2">
           Designing and building have been in my DNA since I was 15, when I
           built my first video game. The process of creating something of your
           own and sharing it with the world fascinated me I loved engaging in
@@ -48,21 +48,23 @@ const Story = () => {
           subtle changes to enhance the overall experience. overall experience,
           is what I loved doing.
         </span>
-        <span id="story-space" />
-        <span className="paragraph paragraph-3">
+        <br />
+        <br />
+        <span className="Paragraph Paragraph-3">
           I've transformed my childhood passion into a full-time professional
           career. From launching a startup in college to crafting websites,
           apps, and Figma designs to cater to client requirements, it's an
           understatement to say that I've merely developed a passion for the
           intersection of business and technology.
         </span>
-        <span id="story-space" />
-        <span className="paragraph paragraph-4">
+        <br />
+        <br />
+        <span className="Paragraph Paragraph-4">
           To better articulate it, I'll show you what I've been doing. 😊
         </span>
       </div>
-      <div className="figure-container">
-        <img id="image-2" src={image} alt="brandon" />
+      <div className="Image-Container">
+        <img className="Image-Self" src={image} alt="brandon" />
       </div>
     </div>
   );

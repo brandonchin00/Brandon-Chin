@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Montserrat:wght@800&family=Orienta&display=swap");
+:root {
+  --primary--: #212529;
+  --secondary--: #6c757d;
+  --tertiary--: #f8f9fa;
+  --quaternary--: #50c2ff;
+  --quinary--: #adb5bd;
+  --senary--: rgb(152, 152, 152);
+  --septenary--: #343a40;
+  --octonary--: rgb(72, 72, 72);
+  --nonary--: /* value */ ;
+
+  --main-font: "Montserrat";
+  --secondary-font: "Orienta", sans-serif;
+  --tertiary-font: "Carrois Gothic", sans-serif;
+}

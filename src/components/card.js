@@ -46,7 +46,6 @@ function CardItem({ title, text, tags, image }) {
           </div>
         </div>
       </div>
-      {/* {console.log(tagUpdated)} */}
     </div>
   );
 }

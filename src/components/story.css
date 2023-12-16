@@ -1,78 +1,78 @@
-.story-container {
-  box-sizing: border-box;
-  padding: 1.5em;
-  margin-left: 15%;
-  margin-top: 15%;
-  overflow: hidden;
-}
-
-.about-container {
+.About-Wrapper {
   display: flex;
   flex-direction: row;
 }
-.story-container h1 {
-  font-size: 2rem;
+
+.Story-Container {
+  box-sizing: border-box;
+  padding: 1.5em;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  overflow: hidden;
 }
 
-.paragraph {
-  color: var(--secondary--);
-  font-family: var(--tertiary-font);
-  font-size: 1.2rem;
+.Story-Container h1 {
+  font-size: 4rem;
 }
 
-.paragraph-1 {
-  color: var(--quinary--);
+.About-Title {
+  color: var(--tertiary--);
+  font-family: var(--main-font);
 }
 
-.title-container {
+.Subtitle-Container {
   display: flex;
   flex-direction: row;
   font-family: sans-serif;
   font-size: 2rem;
-  border-bottom: 2px black solid;
+  border-bottom: 2px solid rgb(152, 152, 152);
   padding-bottom: 10px;
 }
 
-.text {
+.Content-Type {
+  font-family: var(--secondary-font);
   color: var(--quaternary--);
 }
 
-.text-font {
-  font-family: var(--secondary-font);
-  font-size: 40px;
-}
-#story-space {
-  display: block;
-  height: 1em;
-}
-#image-2 {
-  width: 100%; /* Ensures the image fills its container */
-  height: auto; /* Maintains the aspect ratio */
-  display: block; /* Removes any extra space under the image */
+.Content-Sub {
+  color: var(--secondary--);
 }
 
-.figure-container {
+.Paragraph {
+  color: var(--secondary--);
+  font-family: var(--tertiary-font);
+  font-size: 1.3rem;
+}
+
+.Paragraph-1 {
+  color: var(--quinary--);
+}
+
+.Image-Container {
   max-width: 100%; /* Ensures the image doesn't exceed its container's width */
   margin-right: 15%;
-  margin-top: 15%; /* Centers the container horizontally */
-  padding: 20px; /* Adjust the padding to set the desired margin */
+  margin-top: 15%;
+  margin-bottom: 15%; /* Centers the container horizontally */
+  padding: 2rem; /* Adjust the padding to set the desired margin */
   box-sizing: border-box; /* Includes padding in the total width */
-  overflow: hidden;
 }
 
-#title-About {
-  color: var(--tertiary--);
-  font-family: var(--main-font);
-  font-size: 50px;
+.Image-Self {
+  width: 100%; /* Ensures the image fills its container */
+  height: auto; /* Maintains the aspect ratio */
+  display: block;
+  border-radius: 10px; /* Removes any extra space under the image */
 }
-#college {
+
+.College {
   text-decoration: none;
   color: var(--quaternary--);
   position: relative;
   z-index: 1;
 }
 
-#college::before {
+.College::before {
   content: "";
   position: absolute;
   width: 0;
@@ -84,6 +84,6 @@
   transition: width 0.3s ease;
 }
 
-#college:hover::before {
+.College:hover::before {
   width: 100%;
 }

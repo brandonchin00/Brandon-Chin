@@ -5,9 +5,9 @@
   --tertiary--: #f8f9fa;
   --quaternary--: #50c2ff;
   --quinary--: #adb5bd;
-  --senary--: /* value */ ;
-  --septenary--: /* value */ ;
-  --octonary--: /* value */ ;
+  --senary--: rgb(152, 152, 152);
+  --septenary--: #343a40;
+  --octonary--: rgb(72, 72, 72);
   --nonary--: /* value */ ;
 
   --main-font: "Montserrat";
@@ -45,7 +45,7 @@
 }
 /* wave element */
 
-.container {
+.Container {
   z-index: 1;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -56,17 +56,16 @@
   background-color: var(--primary--);
 }
 
-.word-container {
-  margin: 15%;
-}
-
-.container li {
+.Container li {
   list-style-type: none;
   padding: 1rem 0 0 0;
 }
 
+.Wrapper {
+  margin: 10% 15%;
+}
+
 .image-container {
-  /* border: 2px solid pink; */
   margin-top: 5%;
   margin-right: 5%;
 }
@@ -83,19 +82,19 @@
 
 #text-P {
   font-family: var(--main-font);
-  font-size: 90px;
+  font-size: 1.25em;
   color: var(--tertiary--);
 }
 
 #text-S {
   font-family: var(--secondary-font);
-  font-size: 55px;
+  font-size: 0.7em;
   color: var(--secondary--);
 }
 
 .text-T {
   font-family: var(--tertiary-font);
-  font-size: 25px;
+  font-size: 0.3em;
   margin-right: 5rem;
   color: var(--secondary--);
 }

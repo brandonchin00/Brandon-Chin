@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <div className="container">
-      <div className="word-container">
+    <div className="Container">
+      <div className="Wrapper">
         <ul>
           <li className="text-T" id="name">
             Hello!{" "}
@@ -21,10 +21,10 @@ const About = () => {
             I lead software teams in agile methodology to build products
           </li>
           <li className="text-T">
-            As a Product Manager, my emphasis lies in user experience and
-            leveraging data analysis. I extract valuable insights from large
-            datasets and utilize Figma to craft designs, allowing me to swiftly
-            transform ideas into minimum viable products.
+            As a Product Manager, my emphasis lies in UX and data analysis. I
+            extract valuable insights from large datasets and utilize Figma to
+            craft designs, allowing me to swiftly transform requirements into an
+            MVP
           </li>
         </ul>
         <div className="button-container">

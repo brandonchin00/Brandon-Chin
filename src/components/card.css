@@ -4,17 +4,19 @@
   flex-wrap: wrap;
 }
 
+.card-wrapper {
+}
+
 .card-container {
+  margin: 0 20%;
   border: 2px solid black;
-  background: white;
-  border-radius: 5%;
+  background: var(--secondary--);
+  border-radius: 10px;
   display: flex;
-  width: 25vw;
+  width: 22.5vw;
   height: auto;
   flex-direction: column;
-  padding: 15px;
-  position: relative;
-  margin: 5px;
+  padding: 7%;
 }
 
 .card-container:hover {
@@ -73,4 +75,5 @@
   border: 1px solid black;
   color: black;
   padding: 5px;
+  border-radius: 7px;
 }
