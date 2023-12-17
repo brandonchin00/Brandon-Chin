@@ -16,8 +16,8 @@ const About = () => {
             </span>{" "}
             My name is{" "}
           </li>
-          <li id="text-P">Brandon Chin</li>
-          <li id="text-S">
+          <li className="text-P">Brandon Chin</li>
+          <li className="text-S">
             I lead software teams in agile methodology to build products
           </li>
           <li className="text-T">

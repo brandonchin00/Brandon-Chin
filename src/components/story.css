@@ -6,26 +6,21 @@
 .Story-Container {
   box-sizing: border-box;
   padding: 1.5em;
-  margin-left: 15%;
-  margin-top: 10%;
-  margin-bottom: 15%;
+  margin: 15% 10% 15% 15%; /* top right bottom left */
   overflow: hidden;
-}
-
-.Story-Container h1 {
-  font-size: 4rem;
 }
 
 .About-Title {
   color: var(--tertiary--);
   font-family: var(--main-font);
+  font-size: clamp(50px, 8vw, 70px);
 }
 
 .Subtitle-Container {
   display: flex;
   flex-direction: row;
   font-family: sans-serif;
-  font-size: 2rem;
+  font-size: clamp(25px, 6vw, 30px);
   border-bottom: 2px solid rgb(152, 152, 152);
   padding-bottom: 10px;
 }
@@ -42,7 +37,7 @@
 .Paragraph {
   color: var(--secondary--);
   font-family: var(--tertiary-font);
-  font-size: 1.3rem;
+  font-size: clamp(15px, 3vw, 20px);
 }
 
 .Paragraph-1 {
@@ -50,7 +45,6 @@
 }
 
 .Image-Container {
-  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
   margin-right: 15%;
   margin-top: 15%;
   margin-bottom: 15%; /* Centers the container horizontally */
@@ -59,10 +53,24 @@
 }
 
 .Image-Self {
-  width: 100%; /* Ensures the image fills its container */
+  max-width: 300px;
+  min-width: 60px; /* Ensures the image will not exceed the parent container's width */
   height: auto; /* Maintains the aspect ratio */
   display: block;
   border-radius: 10px; /* Removes any extra space under the image */
+}
+
+@media screen and (max-width: 1000px) {
+  .About-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .Image-Self {
+    display: none;
+  }
 }
 
 .College {
