@@ -24,20 +24,21 @@ body {
 }
 
 .number {
-  font-size: 24px;
+  font-size: clamp(14px, 8vw, 24px);
   font-weight: 500;
+  font-family: sans-serif;
   color: var(--quaternary--);
 }
 
 .title {
-  font-size: 1.5em;
+  font-size: clamp(15px, 3vw, 25px);
   color: var(--quinary--);
   font-weight: 300px;
   font-family: var(--tertiary-font);
 }
 
 .date {
-  font-size: 80px;
+  font-size: clamp(30px, 8vw, 80px);
   font-weight: 300px;
   color: #343a40;
   font-family: sans-serif;

@@ -13,6 +13,15 @@
   --main-font: "Montserrat";
   --secondary-font: "Orienta", sans-serif;
   --tertiary-font: "Carrois Gothic", sans-serif;
+
+  --fn-xxs: 12px;
+  --fn-xs: 13px;
+  --fn-sm: 14px;
+  --fn-md: 16px;
+  --fn-lg: 18px;
+  --fn-xl: 20px;
+  --fn-xxl: 22px;
+  --fn-heading: 32px;
 }
 
 /* wave element */
@@ -46,14 +55,7 @@
 /* wave element */
 
 .Container {
-  z-index: 1;
   box-sizing: border-box;
-  font-family: sans-serif;
-  font-size: 70px;
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  background-color: var(--primary--);
 }
 
 .Container li {
@@ -62,25 +64,26 @@
 }
 
 .Wrapper {
-  margin: 12% 18%;
+  margin: 5% 14%;
 }
 
-.button-container {
-  padding-top: 2.5%;
+.List-Container {
+  margin-bottom: 3%;
 }
 
 .text-P {
   font-family: var(--main-font);
-  font-size: clamp(70px, 8vw, 90px);
+  font-size: clamp(40px, 8vw, 80px);
   color: var(--tertiary--);
 }
 
 .text-S {
   line-height: 1.2;
+  font-weight: bold;
   max-width: 1050px;
   word-wrap: break-word;
   font-family: var(--secondary-font);
-  font-size: clamp(30px, 6vw, 50px);
+  font-size: clamp(30px, 3vw, 50px);
   color: var(--secondary--);
 }
 
@@ -89,7 +92,7 @@
   margin-right: 5rem;
   max-width: 900px;
   word-wrap: break-word;
-  font-size: clamp(17px, 3vw, 28px);
+  font-size: clamp(16px, 3vw, 23px);
   color: var(--secondary--);
 }
 
@@ -97,32 +100,11 @@
   color: var(--quaternary--);
 }
 
-@media screen and (max-width: 769px) {
-  #image-1 {
-    max-width: 100px;
-    border-radius: 15px;
-  }
-}
-
 @media screen and (max-width: 390px) {
   .container {
     padding: 1em;
     display: flex;
-    font-family: sans-serif;
     font-size: 35px;
     margin-right: 10px;
-  }
-
-  .image-container {
-    z-index: 1;
-    position: fixed;
-    right: 22vw;
-    bottom: 4vh;
-    margin-left: 65%; /* Adjust the margin as needed for spacing */
-  }
-
-  #image-1 {
-    max-width: 200px;
-    border-radius: 15px;
   }
 }

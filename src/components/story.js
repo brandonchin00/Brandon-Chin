@@ -8,7 +8,7 @@ const Story = () => {
   return (
     <div className="About-Wrapper">
       {/* <h1 id="story-title">About Me</h1> */}
-      <div className="Story-Container">
+      <div className="Story-Container" id="introSection">
         <h1 className="About-Title">About Me</h1>
         <br />
         <div className="Subtitle-Container">
@@ -21,6 +21,7 @@ const Story = () => {
                   animated.second,
                   animated.third,
                   animated.fourth,
+                  animated.fifth,
                 ],
                 autoStart: true,
                 loop: true,
@@ -42,11 +43,18 @@ const Story = () => {
         <br />
         <span className="Paragraph Paragraph-2">
           Designing and building have been in my DNA since I was 15, when I
-          built my first video game. The process of creating something of your
-          own and sharing it with the world fascinated me I loved engaging in
-          the meticulous process of reviewing the user's journey and making
-          subtle changes to enhance the overall experience. overall experience,
-          is what I loved doing.
+          built my{" "}
+          <a
+            className="College"
+            href="https://www.roblox.com/games/398267573/Hotel-Roleplay-by-Mandarin-Oriental-Hotel"
+            target="blank"
+          >
+            first video game
+          </a>
+          . The process of creating something of your own and sharing it with
+          the world fascinated me. I loved engaging in the meticulous process of
+          reviewing the user's journey and making subtle changes to enhance the
+          overall experience. overall experience, is what I loved doing.
         </span>
         <br />
         <br />

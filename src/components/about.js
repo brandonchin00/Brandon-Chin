@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="Container">
       <div className="Wrapper">
-        <ul>
+        <ul className="List-Container">
           <li className="text-T" id="name">
             Hello!{" "}
             <span id="wave" role="img" aria-label="wave">
@@ -34,9 +34,6 @@ const About = () => {
           </Link>
         </div>
       </div>
-      {/* <div className="image-container">
-        <img id="image-1" src={image1} alt="" />
-      </div> */}
     </div>
   );
 };

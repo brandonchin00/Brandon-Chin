@@ -4,7 +4,8 @@ const animated = {
   first: "PRODUCT MANAGER",
   second: "FRONT-END DEVELOPER",
   third: "BUSINESS STUDENT",
-  fourth: "RUNNER 👟",
+  fourth: "DATA ANALYST",
+  fifth: "RUNNER 👟",
 };
 
 const content = [
@@ -44,44 +45,22 @@ const content = [
 
 const projects = [
   {
-    image:
-      "https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg",
+    image: "../adjustment/test.jpg",
     title: "iOS and Android Application",
     text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     tags: "Figma iOS Android",
   },
   {
-    image: "https://cdn-icons-png.flaticon.com/512/81/81609.png",
+    image: "../adjustment/test.jpg",
     title: "Website Development",
     text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     tags: "React.js Web SEO Canva",
   },
   {
-    image:
-      "https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg",
+    image: "../adjustment/test.jpg",
     title: "Social Media Management",
     text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     tags: "Instagram Facebook Tiktok",
-  },
-  {
-    image:
-      "https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg",
-    title: "Social Media Management",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Instagram Facebook Tiktok",
-  },
-  {
-    image:
-      "https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg",
-    title: "iOS and Android Application",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Figma iOS Android",
-  },
-  {
-    image: "https://cdn-icons-png.flaticon.com/512/81/81609.png",
-    title: "Website Development",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "React.js Web SEO Canva",
   },
 ];
 

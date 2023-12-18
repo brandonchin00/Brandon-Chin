@@ -9,9 +9,8 @@
   box-sizing: content-box;
   display: inline-block;
   list-style: none;
-  font-size: 18px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: var(--fn-xl);
   font-weight: 700;
   font-family: var(--secondary-font);
   cursor: pointer;
@@ -24,33 +23,15 @@
 }
 
 .buttonContact {
+  padding: var(--fn-xs);
   border: 2px solid var(--quaternary--);
   color: var(--quaternary--) !important;
-  padding: 0.5rem;
 }
 
 .buttonContact:hover {
   border: 2px solid var(--tertiary--);
   color: var(--tertiary--) !important;
 }
-
-/* This is for logo Brandon Chin */
-
-/* #letter {
-  display: inline-block;
-  transition: transform 0.2s;
-}
-#letter:hover {
-  transform: translateY(-2px);
-}
-
-.logo {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--secondary--);
-  cursor: default;
-} */
 
 /* Below Are CSS for Mobile Device */
 
@@ -65,7 +46,7 @@
     justify-content: flex-start;
     position: fixed;
     top: 50px;
-    width: 100vw;
+    width: 100%;
     background: var(--primary--);
     transition: opacity 0.3s ease-in-out;
     opacity: 0;

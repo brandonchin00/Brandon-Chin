@@ -5,24 +5,24 @@
 
 .Story-Container {
   box-sizing: border-box;
-  padding: 1.5em;
-  margin: 15% 10% 15% 15%; /* top right bottom left */
+  padding-top: 1.5em;
+  margin: 15% 8% 15% 15%; /* top right bottom left */
   overflow: hidden;
 }
 
 .About-Title {
   color: var(--tertiary--);
   font-family: var(--main-font);
-  font-size: clamp(35px, 3vw, 70px);
+  font-size: clamp(30px, 4vw, 60px);
 }
 
 .Subtitle-Container {
   display: flex;
   flex-direction: row;
   font-family: sans-serif;
-  font-size: clamp(25px, 1vw, 30px);
+  font-size: clamp(22px, 2vw, 30px);
   border-bottom: 2px solid rgb(152, 152, 152);
-  padding-bottom: 10px;
+  padding-bottom: 2%;
 }
 
 .Content-Type {
@@ -37,7 +37,7 @@
 .Paragraph {
   color: var(--secondary--);
   font-family: var(--tertiary-font);
-  font-size: clamp(10px, 2vw, 20px);
+  font-size: clamp(16px, 3vw, 20px);
 }
 
 .Paragraph-1 {
@@ -45,9 +45,8 @@
 }
 
 .Image-Container {
-  margin-right: 15%;
-  margin-top: 15%;
-  margin-bottom: 15%; /* Centers the container horizontally */
+  margin-right: 13%;
+  margin-top: 15%; /* Centers the container horizontally */
   padding: 2rem; /* Adjust the padding to set the desired margin */
   box-sizing: border-box; /* Includes padding in the total width */
 }
@@ -63,9 +62,8 @@
 @media screen and (max-width: 1000px) {
   .About-Wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10%;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .Image-Self {

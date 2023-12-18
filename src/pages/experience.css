@@ -1,3 +1,8 @@
+.Experience-Wrapper {
+  background-color: var(--primary--);
+  margin-bottom: 10%;
+}
+
 .Experience-Container {
   display: block;
   box-sizing: border-box;
@@ -8,13 +13,15 @@
 }
 
 .Experience-Container h2 {
-  font-size: 5rem;
+  padding-top: 2%;
+  font-size: clamp(30px, 4vw, 60px);
   font-family: var(--main-font);
   margin-bottom: 2.5%;
   color: var(--tertiary--);
 }
 
 .Experience-Container p {
-  font-size: 1.25em;
-  color: rgb(152, 152, 152);
+  font-family: var(--secondary-font);
+  font-size: clamp(16px, 3vw, 23px);
+  color: var(--secondary--);
 }

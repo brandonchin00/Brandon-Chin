@@ -1,11 +1,10 @@
 import Tile from "../components/Accordion.js";
 import "./experience.css";
-import "./general.css";
 
 const Experience = () => {
   return (
-    <div className="Experience-Wrapper">
-      <div className="Experience-Container" id="workSection">
+    <div className="Experience-Wrapper" id="workSection">
+      <div className="Experience-Container">
         <h2>Experiences</h2>
         <p>
           Here's a compilation of my internships. You'll quickly see the

@@ -1,6 +1,5 @@
 import { Navbar } from "../components/NavBar";
 import About from "../components/about.js";
-import "./general.css";
 
 const Home = () => {
   return (
