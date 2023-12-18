@@ -14,8 +14,8 @@ const Project = () => {
           understanding allows for more precise and insightful guidance when
           collaborating with others.
         </p>
+        <Card />
       </div>
-      <Card />
     </div>
   );
 };

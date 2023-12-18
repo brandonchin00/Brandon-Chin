@@ -10,7 +10,7 @@ export default Project;
 
 function Card({ data }) {
   return (
-    <div className="cards">
+    <div className="Card-Wrapper">
       {data.map((el) => (
         <CardItem
           key={el.title}
@@ -27,22 +27,20 @@ function Card({ data }) {
 function CardItem({ title, text, tags, image }) {
   const tagUpdated = String(tags).split(" ");
   return (
-    <div className="card-wrapper">
-      <div className="card-container">
-        <div className="imageCard-container">
-          <img src={image} alt="" />
-        </div>
-        <div className="text-container">
-          <span className="card-title">{title}</span>
-          <span className="card-text">{text}</span>
-        </div>
-        <div className="tag-container">
-          {tagUpdated.map((tag, index) => (
-            <div key={index} className="tag">
-              {tag}
-            </div>
-          ))}
-        </div>
+    <div className="card-container">
+      <div className="imageCard-container">
+        <img src={image} alt="project" />
+      </div>
+      <div className="text-container">
+        <span className="card-title">{title}</span>
+        <span className="card-text">{text}</span>
+      </div>
+      <div className="tag-container">
+        {tagUpdated.map((tag, index) => (
+          <div key={index} className="tag">
+            {tag}
+          </div>
+        ))}
       </div>
     </div>
   );
