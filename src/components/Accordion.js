@@ -27,6 +27,8 @@ function Accordion({ data }) {
           date={el.date}
           handleToggle={handleToggle}
           image={el.image}
+          image_2={el.image_2}
+          month={el.month}
         />
       ))}
     </div>
@@ -41,6 +43,8 @@ function AccordionItem({
   date,
   handleToggle,
   image,
+  image_2,
+  month,
 }) {
   function handleClick() {
     handleToggle(index);
@@ -50,9 +54,15 @@ function AccordionItem({
     <div className={`item ${isOpen ? "open" : ""}`} onClick={handleClick}>
       <p className="number">{index < 9 ? `0${index + 1}` : index + 1}</p>
       <p className="title">{title}</p>
-      <p className="date">{date}</p>{" "}
+      <p className="date">{date}</p>
       {isOpen && <div className="content-box">{text}</div>}
-      {isOpen && <img src={image} alt="company" className="Accordion-Image" />}
+      {isOpen && <div className="month">{month}</div>}
+      {isOpen && (
+        <div className="Image-Wrapper">
+          <img src={image} alt="company" className="Accordion-Image" />
+          <img src={image_2} alt="company" className="Accordion-Image-2" />
+        </div>
+      )}
     </div>
   );
 }
