@@ -45,7 +45,6 @@ body {
 }
 
 .content-box {
-  grid-column: 2 / -1;
   padding-bottom: 16px;
   line-height: 1.6;
 }
@@ -54,10 +53,15 @@ body {
   color: #868e96;
   margin-left: 16px;
   margin-top: 16px;
-
-  display: flex;
-  flex-direction: column;
   gap: 12px;
+}
+
+.Accordion-Image {
+  width: auto;
+  height: 15vh;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
 }
 
 .item:hover {
@@ -68,6 +72,11 @@ body {
 
 /* OPEN STATE */
 .open {
+  display: grid;
+  grid-template-areas:
+    "item-1 item-2 item-3"
+    "item-4 item-4 item-4"
+    "item-5 item-5 item-5";
   transform: 0.5s;
   border-top: 4px solid rgb(0, 191, 255);
   background-color: #343a40;
@@ -79,4 +88,24 @@ body {
 .open .title {
   transform: 0.5s;
   color: rgb(0, 191, 255);
+}
+
+.open .number {
+  grid-area: item-1;
+}
+
+.open .title {
+  grid-area: item-2;
+}
+
+.open .date {
+  grid-area: item-3;
+}
+
+.open .content-box {
+  grid-area: item-4;
+}
+
+.open .Accordion-Image {
+  grid-area: item-5;
 }

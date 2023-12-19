@@ -50,9 +50,9 @@ function AccordionItem({
     <div className={`item ${isOpen ? "open" : ""}`} onClick={handleClick}>
       <p className="number">{index < 9 ? `0${index + 1}` : index + 1}</p>
       <p className="title">{title}</p>
-      <p className="date">{date}</p>
+      <p className="date">{date}</p>{" "}
       {isOpen && <div className="content-box">{text}</div>}
-      {isOpen && <img src={image} alt="" className="image-class" />}
+      {isOpen && <img src={image} alt="company" className="Accordion-Image" />}
     </div>
   );
 }
