@@ -59,6 +59,10 @@
   border-radius: 10px; /* Removes any extra space under the image */
 }
 
+.Skill-List {
+  padding: 10px;
+}
+
 @media screen and (max-width: 1000px) {
   .About-Wrapper {
     display: flex;

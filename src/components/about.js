@@ -18,13 +18,12 @@ const About = () => {
           </li>
           <li className="text-P">Brandon Chin</li>
           <li className="text-S">
-            I lead software teams in agile methodology to build products
+            I lead software teams in agile to build products
           </li>
           <li className="text-T">
-            As a Product Manager, my emphasis lies in UX and data analysis. I
-            extract valuable insights from large datasets and utilize Figma to
-            craft designs, allowing me to swiftly transform requirements into an
-            MVP
+            I'm a product manager with a focus in user experience and data
+            analysis. I extract requirements from datasets to swiftly transform
+            Figma designs into user testing.
           </li>
         </ul>
         <div className="button-container">

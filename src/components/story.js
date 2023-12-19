@@ -69,6 +69,16 @@ const Story = () => {
         <br />
         <span className="Paragraph Paragraph-4">
           To better articulate it, I'll show you what I've been doing. 😊
+          {/* <ul className="Skill-List">
+            <h3>Tools</h3>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>SQL</li>
+            <li>Figma</li>
+            <li>Python</li>
+            <li>HTML/CSS</li>
+          </ul> */}
         </span>
       </div>
       <div className="Image-Container">
