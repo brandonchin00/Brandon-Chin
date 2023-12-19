@@ -26,13 +26,22 @@ function Accordion({ data }) {
           text={el.text}
           date={el.date}
           handleToggle={handleToggle}
+          image={el.image}
         />
       ))}
     </div>
   );
 }
 
-function AccordionItem({ index, isOpen, title, text, date, handleToggle }) {
+function AccordionItem({
+  index,
+  isOpen,
+  title,
+  text,
+  date,
+  handleToggle,
+  image,
+}) {
   function handleClick() {
     handleToggle(index);
   }
@@ -43,6 +52,7 @@ function AccordionItem({ index, isOpen, title, text, date, handleToggle }) {
       <p className="title">{title}</p>
       <p className="date">{date}</p>
       {isOpen && <div className="content-box">{text}</div>}
+      {isOpen && <img src={image} alt="" className="image-class" />}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "../adjustment/content.js";
+
 import "./card.css";
 
 const Project = () => {

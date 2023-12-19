@@ -8,11 +8,13 @@ const Project = () => {
         <p>
           Below, you'll find front-end development and coding projects. I
           believe that grasping the fundamental tools for project development is
-          pivotal in effective team leadership. To communicate requirements
-          effectively and translate my UX Figma designs into tangible,
-          achievable goals for the team, I find that possessing a hands-on
-          understanding allows for more precise and insightful guidance when
-          collaborating with others.
+          pivotal in effective team leadership.
+          <br />
+          <br />
+          To communicate requirements effectively and translate my UX Figma
+          designs into tangible, achievable goals for the team, I find that
+          possessing a hands-on understanding allows for more precise and
+          insightful guidance when collaborating with others.
         </p>
         <Card />
       </div>
