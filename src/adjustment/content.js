@@ -62,11 +62,20 @@ const content = [
 
 const projects = [
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Global Tour Product Store",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Figma iOS Android",
+    image: "../card-images/fyt.png",
+    title: "Internal Product Database",
+    text: "An internal tool for company branch managers to actively manage and track their existing products.",
+    tags: "Node.js React.js SEO Figma",
+    images: {
+      image_1: "../card-images/fyt.png",
+      image_2: "../card-images/fyt-1.png",
+      image_3: "../card-images/fyt-2.png",
+      image_3: "../card-images/fyt-3.png",
+    },
+    title_in: "Travel Agency Internal Product Database",
+    task: "Branch managers have raised an issue with the head office: New employees feel less motivated to sell current products due to the complexity of accessing inventory and collecting sales information.",
+    solution:
+      "A web page designed to streamline information presentation for agents, featuring an intuitive user interface and captivating graphics to efficiently communicate information. This aims to rapidly replace the conventional use of Excel sheets.",
   },
   {
     image:

@@ -21,7 +21,7 @@
 }
 
 .Experience-Container p {
-  font-family: var(--secondary-font);
+  font-family: var(--tertiary-font);
   font-size: clamp(16px, 3vw, 23px);
   color: var(--secondary--);
 }

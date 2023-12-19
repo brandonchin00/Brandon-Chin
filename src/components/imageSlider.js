@@ -44,7 +44,7 @@ const ImageSlider = ({ images }) => {
           <button onClick={goToPreviousSlide}>Previous</button>
         )}
         {activeIndex !== images.length - 1 && (
-          <button onClick={goToNextSlide}>Next</button>
+          <button onClick={(goToNextSlide, goToSlide)}>Next</button>
         )}
       </div>
     </div>

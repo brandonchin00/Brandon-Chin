@@ -1,5 +1,6 @@
 import Card from "../components/card.js";
 import "./project.css";
+
 const Project = () => {
   return (
     <div className="Project-Wrapper">

@@ -80,6 +80,9 @@ body {
   transition: 0.5s;
   background-color: rgb(170, 234, 255);
   color: black;
+  .title {
+    color: black;
+  }
 }
 
 /* OPEN STATE */
