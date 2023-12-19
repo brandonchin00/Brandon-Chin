@@ -43,6 +43,8 @@ body {
   font-weight: 300px;
   color: #343a40;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .content-box {
@@ -92,11 +94,16 @@ body {
   background-color: #343a40;
   color: white;
 }
-.open .date,
+
 .open .number,
 .open .title {
   transform: 0.5s;
   color: rgb(0, 191, 255);
+}
+
+.open .date {
+  transform: 0.5s;
+  color: rgb(0, 90, 120);
 }
 
 .open .number {
@@ -127,7 +134,7 @@ body {
 .open .month {
   grid-area: item-3;
   display: flex;
-  font-size: clamp(13px, 8vw, 25px);
+  font-size: clamp(12px, 8vw, 24px);
   font-family: sans-serif;
   justify-content: center;
   color: white;

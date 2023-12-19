@@ -44,17 +44,19 @@ const content = [
   },
   {
     title: "Marketing Intern at The Human Element",
-    text: "I created a concept venue and presented it directly to the company’s client within 5 days. I facilitated daily Spanish-to-English communication between partner companies. On the website, I revised the UX via graphic changes, design tweaks on WordPress, and content adjustments. I redesigned 2 graphs for better data organization and proposed a royalty deal to create a new revenue stream for the CEO with a publisher.",
+    text: "I created a concept venue and presented it directly to the company’s client(Chef Narisawa) within 5 days. I facilitated daily Spanish-to-English communication between partner companies. On the website, I revised the UX via graphic changes, design tweaks on WordPress, and content adjustments. I redesigned 2 graphs for better data organization and proposed a royalty deal to create a new revenue stream for the CEO with a publisher.",
     date: "2019",
     month: "October – December",
-    image: "../images/publicis.png",
+    image: "../images/human.png",
+    image_2: "../images/human-2.png",
   },
   {
     title: "Audit Intern at Changing the Present",
     text: "I revised excel sheets equations and cross checked the accounting excel sheet with a mentor",
     date: "2016",
     month: "June – July",
-    image: "../images/publicis.png",
+    image: "../images/change.png",
+    image_2: "../images/change-2.png",
   },
 ];
 
@@ -62,7 +64,7 @@ const projects = [
   {
     image:
       "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "FTY Web Application",
+    title: "Global Tour Product Store",
     text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     tags: "Figma iOS Android",
   },
