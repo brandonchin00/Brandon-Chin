@@ -12,9 +12,25 @@
 }
 
 .pop-inner {
-  max-width: 50vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 70vw;
+  height: auto;
   background-color: white;
-  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-btn {
+  margin: 3% 3%;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.close-btn:hover {
+  color: white;
+  background-color: var(--quaternary--);
 }

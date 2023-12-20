@@ -71,44 +71,53 @@ function CardItem({
           ))}
         </div>
       </div>
-      <Popup trigger={card} setTrigger={setCard} position="center">
-        <div className="overlay">
-          <div className="Hover">
-            <h4 className="pop-title">{title_in}</h4>
-            <div
-              style={{
-                display: "flex",
-                transition: "transform 0.5s ease",
-                transform: `translateX(-${activeIndex * 100}%)`,
-              }}
-            >
-              {image_in &&
-                Object.values(image_in).map((imageUrl, index) => (
-                  <img
-                    key={index}
-                    src={imageUrl}
-                    alt={` ${index}`}
-                    style={{ width: "100%", flex: "0 0 100%" }}
-                  />
-                ))}
-            </div>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
-              <button onClick={() => goToSlide(0)}>1</button>
-              <button onClick={() => goToSlide(1)}>2</button>
-              <button onClick={() => goToSlide(2)}>3</button>
-            </div>
-            <h5>Problem</h5>
-            <p className="pop-task">{task}</p>
-            <h5>Solution</h5>
-            <p className="pop-solution">{solution}</p>
-            <button className="pop-close">Close</button>
-          </div>
+      <Popup trigger={card}>
+        <h4 className="pop-title">{title_in}</h4>
+        <div
+          style={{
+            display: "flex",
+            transition: "transform 0.5s ease",
+            transform: `translateX(-${activeIndex * 100}%)`,
+          }}
+        >
+          {image_in &&
+            Object.values(image_in).map((imageUrl, index) => (
+              <img
+                className="pop-image"
+                key={index}
+                src={imageUrl}
+                alt={` ${index}`}
+                style={{ width: "100%", flex: "0 0 100%" }}
+              />
+            ))}
         </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <button
+            className="image-button"
+            onClick={() => goToSlide(0)}
+          ></button>
+          <button
+            className="image-button"
+            onClick={() => goToSlide(1)}
+          ></button>
+          <button
+            className="image-button"
+            onClick={() => goToSlide(2)}
+          ></button>
+        </div>
+        <h5 className="popup-subtitle">Problem</h5>
+        <p className="pop-task">{task}</p>
+        <h5 className="popup-subtitle">Solution</h5>
+        <p className="pop-solution">{solution}</p>
+        <button className="close-btn" onClick={() => setCard(false)}>
+          {" "}
+          Close{" "}
+        </button>
       </Popup>
     </div>
   );
