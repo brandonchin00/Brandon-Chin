@@ -99,7 +99,7 @@ const Contact = () => {
         </ul>
       </div>
       <div className="end-credit">
-        <h6 className="contact-credit">Designed and Built By Brandon Chin.</h6>
+        <h6 className="contact-credit">Built By Brandon Chin.</h6>
       </div>
       <h6 className="contact-credit">
         © 2023 Brandon Chin. All rights reserved.

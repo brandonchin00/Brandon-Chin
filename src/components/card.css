@@ -8,7 +8,7 @@
 }
 
 .card-container {
-  max-width: 300px;
+  max-width: 240px;
   min-width: 200px;
   width: auto;
   box-sizing: border-box;
@@ -20,21 +20,15 @@
   border-radius: 8px;
   overflow: hidden;
   margin-top: 10px;
-  transition: 0.3s ease;
+  transition: 0.25s ease;
 }
 
 .card-container:hover {
+  background-color: #454b50;
   transition: 0.5s;
-  background-color: rgb(170, 234, 255);
   .imageCard-container {
     transition: 0.5s;
     transform: scale(1.1);
-  }
-  .card-title {
-    color: var(--primary--);
-  }
-  .card-text {
-    color: var(--septenary--);
   }
   cursor: pointer;
 }
@@ -47,7 +41,7 @@
 }
 
 .imageCard-container img {
-  max-width: 300px;
+  max-width: 240px;
   min-width: 200px;
   width: auto;
   height: auto;
@@ -83,7 +77,7 @@
 }
 
 .tag-container {
-  padding: 4% 4% 4% 4%;
+  padding: 3% 4%;
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -92,10 +86,10 @@
 
 .tag {
   font-size: 0.8em;
-  font-family: sans-serif;
+  font-family: var(--secondary-font);
   font-weight: bolder;
   background-color: var(--quaternary--);
-  color: white;
+  color: #3683ad;
   padding: 8px;
   border-radius: 15px;
 }
@@ -225,7 +219,7 @@ svg:hover {
 
 @media (max-width: 768px) {
   .pop-inner {
-    width: 8vw;
+    width: 85vw;
   }
 }
 

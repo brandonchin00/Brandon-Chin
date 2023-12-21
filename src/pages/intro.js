@@ -43,7 +43,7 @@ const Intro = () => {
         <li className="text-T">
           I'm a product manager with a focus in user experience and data
           analysis. I extract requirements from datasets to swiftly transform
-          Figma designs into user testing.
+          designs into user testing.
         </li>
       </ul>
       <div className="button-container">

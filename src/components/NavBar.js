@@ -1,19 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./NavBarStyle.css";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export function Navbar() {
-  const [clicked, setClicked] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+  const [navbar, setNavBar] = useState(false);
 
   const toggleMenu = () => {
-    setClicked(!clicked);
+    setNavBar(!navbar);
   };
 
   const hideNavbar = () => {
-    setClicked(false);
+    setNavBar(false);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+
+      setVisible(
+        (prevScrollPos > currentScrollPos &&
+          prevScrollPos - currentScrollPos > 70) ||
+          currentScrollPos < 10
+      );
+
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
 
   const handleDownload = () => {
     const fileName = `Brandon_Chin.pdf`;
@@ -38,9 +57,9 @@ export function Navbar() {
   };
 
   return (
-    <nav className="nav-wrapper">
-      <div className="nav-wrapper2">
-        <ul className={clicked ? "navbar active" : "navbar"}>
+    <nav>
+      <div className={"nav-wrapper2"}>
+        <ul className={navbar ? "navbar active" : "navbar"}>
           <li className="buttonAbout">
             <Link
               to="introSection"
@@ -89,8 +108,8 @@ export function Navbar() {
       <div id="mobile" onClick={toggleMenu}>
         <FontAwesomeIcon
           id="icon"
-          icon={clicked ? faXmark : faBars}
-          style={{ transform: `rotate(${clicked ? "90deg" : "0deg"})` }}
+          icon={navbar ? faXmark : faBars}
+          style={{ transform: `rotate(${navbar ? "90deg" : "0deg"})` }}
         />
       </div>
     </nav>
