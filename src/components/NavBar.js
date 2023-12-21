@@ -10,27 +10,62 @@ export function Navbar() {
   const toggleMenu = () => {
     setClicked(!clicked);
   };
+
+  const hideNavbar = () => {
+    setClicked(false);
+  };
+
   return (
     <nav className="nav-wrapper">
       <div className="nav-wrapper2">
         <ul className={clicked ? "navbar active" : "navbar"}>
           <li className="buttonAbout">
-            <Link to="introSection" smooth={true} duration={500}>
+            <Link
+              to="introSection"
+              smooth={true}
+              duration={500}
+              onClick={hideNavbar}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="workSection" smooth={true} duration={500}>
+            <Link
+              to="workSection"
+              smooth={true}
+              duration={500}
+              onClick={hideNavbar}
+            >
               Work
             </Link>
           </li>
           <li>
-            <Link to="projectSection" smooth={true} duration={500}>
+            <Link
+              to="projectSection"
+              smooth={true}
+              duration={500}
+              onClick={hideNavbar}
+            >
               Projects
             </Link>
           </li>
+          <li>
+            <Link
+              to="contactSection"
+              smooth={true}
+              duration={500}
+              onClick={hideNavbar}
+            >
+              Contact
+            </Link>
+          </li>
           <li className="buttonContact">
-            <Link to="contactSection" smooth={true} duration={500}>
+            <Link
+              to="contactSection"
+              smooth={true}
+              duration={500}
+              onClick={hideNavbar}
+            >
               Resume
             </Link>
           </li>
@@ -46,20 +81,3 @@ export function Navbar() {
     </nav>
   );
 }
-
-// {
-//   /* <a className="logo" href="index.html">
-//         <span id="letter">b</span>
-//         <span id="letter">r</span>
-//         <span id="letter">a</span>
-//         <span id="letter">n</span>
-//         <span id="letter">d</span>
-//         <span id="letter">o</span>
-//         <span id="letter">n</span>
-//         <span id="letter">.</span>
-//         <span id="letter">c</span>
-//         <span id="letter">h</span>
-//         <span id="letter">i</span>
-//         <span id="letter">n</span>
-//       </a> */
-// }

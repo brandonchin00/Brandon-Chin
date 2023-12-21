@@ -1,10 +1,10 @@
-import Home from "./pages/home.js";
-import Intro from "./pages/about.js";
+import About from "./pages/about.js";
 import Experience from "./pages/experience.js";
 import React from "react";
 import Project from "./pages/project.js";
-// import Contact from "./pages/contact.js";
-import ImageSlider from "./components/imageSlider.js";
+import Contact from "./pages/contact.js";
+import Intro from "./pages/intro.js";
+import { Navbar } from "./components/NavBar.js";
 
 export default function App() {
   const images = [
@@ -15,12 +15,14 @@ export default function App() {
   ];
   return (
     <div>
-      <Home />
-      <Intro />
-      <Experience />
-      <Project />
-      <ImageSlider images={images} />
-      {/* <Contact /> */}
+      <Navbar />
+      <main>
+        <Intro />
+        <About />
+        <Experience />
+        <Project />
+        <Contact />
+      </main>
     </div>
   );
 }

@@ -1,20 +1,20 @@
 .Experience-Wrapper {
   background-color: var(--primary--);
   margin-bottom: 10%;
+  max-width: 1000px;
+  margin: 20% auto;
 }
 
 .Experience-Container {
   display: block;
   box-sizing: border-box;
-  width: 70vw;
-  margin: 0 15%;
   padding-bottom: 2%;
   border-bottom: 2px solid rgb(152, 152, 152);
 }
 
 .Experience-Container h2 {
   padding-top: 2%;
-  font-size: clamp(30px, 4vw, 60px);
+  font-size: clamp(45px, 5vw, 60px);
   font-family: var(--main-font);
   margin-bottom: 2.5%;
   color: var(--tertiary--);
@@ -22,6 +22,16 @@
 
 .Experience-Container p {
   font-family: var(--tertiary-font);
-  font-size: clamp(16px, 3vw, 23px);
+  font-size: clamp(18px, 5vw, 20px);
   color: var(--secondary--);
+}
+
+@media screen and (max-width: 440px) {
+  .Experience-Wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 90vh;
+    padding-bottom: 20vh;
+  }
 }

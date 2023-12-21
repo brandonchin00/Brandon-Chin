@@ -70,10 +70,11 @@ const projects = [
       image_1: "../card-images/fyt.png",
       image_2: "../card-images/fyt-1.png",
       image_3: "../card-images/fyt-2.png",
-      image_3: "../card-images/fyt-3.png",
     },
     title_in: "Travel Agency Internal Product Database",
     task: "Branch managers have raised an issue with the head office: New employees feel less motivated to sell current products due to the complexity of accessing inventory and collecting sales information.",
+    process:
+      "I began by listening and pinpointing the company's issues during a meeting, then delved deeper by conducting 5 interviews with branch managers to gain a comprehensive grasp of the problem. Following brainstorming sessions, I suggested a website solution aimed at streamlining information flow. Once the proposal was approved, I gathered requirements and swiftly drafted a preliminary design to test user navigation within a day. Consulting with managers using the wireframe, I refined the user experience through collaborative adjustments. After some adjustments, I began building the website utilizing React and Node.js.",
     solution:
       "A web page designed to streamline information presentation for agents, featuring an intuitive user interface and captivating graphics to efficiently communicate information. This aims to rapidly replace the conventional use of Excel sheets.",
   },

@@ -1,26 +1,26 @@
 .About-Wrapper {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .Story-Container {
   box-sizing: border-box;
-  padding-top: 1.5em;
-  margin: 15% 8% 15% 15%; /* top right bottom left */
-  overflow: hidden;
 }
 
 .About-Title {
   color: var(--tertiary--);
   font-family: var(--main-font);
-  font-size: clamp(30px, 4vw, 60px);
+  font-size: clamp(45px, 5vw, 60px);
 }
 
 .Subtitle-Container {
   display: flex;
   flex-direction: row;
   font-family: sans-serif;
-  font-size: clamp(22px, 2vw, 30px);
+  font-size: clamp(30px, 3vw, 35px);
   border-bottom: 2px solid rgb(152, 152, 152);
   padding-bottom: 2%;
 }
@@ -37,7 +37,7 @@
 .Paragraph {
   color: var(--secondary--);
   font-family: var(--tertiary-font);
-  font-size: clamp(16px, 3vw, 20px);
+  font-size: clamp(18px, 5vw, 20px);
 }
 
 .Paragraph-1 {
@@ -46,9 +46,9 @@
 
 .Image-Container {
   margin-right: 13%;
-  margin-top: 15%; /* Centers the container horizontally */
-  padding: 2rem; /* Adjust the padding to set the desired margin */
-  box-sizing: border-box; /* Includes padding in the total width */
+  margin-top: 15%;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .Image-Self {
@@ -61,18 +61,6 @@
 
 .Skill-List {
   padding: 10px;
-}
-
-@media screen and (max-width: 1000px) {
-  .About-Wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .Image-Self {
-    display: none;
-  }
 }
 
 .College {
@@ -96,4 +84,27 @@
 
 .College:hover::before {
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .About-Wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    padding-bottom: 20vh;
+  }
+
+  .Image-Self {
+    width: 250px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .Image-Container {
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 15vw;
+    box-sizing: border-box;
+  }
 }

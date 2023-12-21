@@ -20,6 +20,7 @@
   overflow: hidden;
   text-transform: uppercase;
   transition: all 0.35s;
+  margin-top: 15px;
   margin-right: 10px;
   border: 2px solid var(--quaternary--);
 }
@@ -63,14 +64,8 @@
   right: 10px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 440px) {
   .button {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .button {
-    font-size: 10px;
+    font-size: clamp(15px, 6vw, 18px);
   }
 }
