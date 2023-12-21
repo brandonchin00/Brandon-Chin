@@ -15,7 +15,7 @@ export default function App() {
     // Add more image URLs as needed
   ];
   return (
-    <div>
+    <div className="app">
       <header>
         <Navbar />
         <Sidebar />
