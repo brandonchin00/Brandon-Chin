@@ -4,10 +4,13 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 1% 0.5%;
+  max-width: 1000px;
 }
 
 .card-container {
-  width: 18vw;
+  max-width: 300px;
+  min-width: 200px;
+  width: auto;
   box-sizing: border-box;
   background: var(--secondary--);
   display: flex;
@@ -44,7 +47,9 @@
 }
 
 .imageCard-container img {
-  width: 18vw;
+  max-width: 300px;
+  min-width: 200px;
+  width: auto;
   height: auto;
 }
 
@@ -94,6 +99,8 @@
   padding: 8px;
   border-radius: 15px;
 }
+
+/* ------------------------------------------------------------------------- */
 
 .pop-title-container {
   box-sizing: inherit;

@@ -23,7 +23,7 @@
 }
 
 .buttonContact {
-  padding: var(--fn-xs);
+  padding: 8px 10px;
   border: 2px solid var(--quaternary--);
   color: var(--quaternary--) !important;
 }
