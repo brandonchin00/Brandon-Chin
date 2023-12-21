@@ -206,43 +206,19 @@ svg:hover {
   overflow-y: auto;
 }
 
-@media (max-width: 1500px) {
-  .card-container {
-    width: 25vw; /* Adjust width for even smaller screens */ /* Modify padding for even smaller screens */
-  }
-
-  .imageCard-container img {
-    width: 25vw;
-    height: auto;
-  }
-}
-
 /* Media query for smaller screens */
-@media (max-width: 1024px) {
-  .card-container {
-    width: 40vw; /* Adjust width for even smaller screens */ /* Modify padding for even smaller screens */
-  }
-
-  .imageCard-container img {
-    width: 40vw;
-    height: auto;
+@media (max-width: 1500px) {
+  .pop-inner {
+    width: 60vw;
+    height: 75vh;
   }
 }
 
 /* Media query for even smaller screens */
 
 @media (max-width: 768px) {
-  .card-container {
-    width: 80vw; /* Adjust width for even smaller screens */ /* Modify padding for even smaller screens */
-  }
-
-  .imageCard-container img {
-    width: 80vw;
-    height: auto;
-  }
-
   .pop-inner {
-    width: 85vw;
+    width: 8vw;
   }
 }
 

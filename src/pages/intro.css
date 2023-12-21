@@ -58,7 +58,7 @@
   justify-content: center;
   flex-direction: column;
   min-height: 90vh;
-  padding-bottom: 20vh;
+  padding-bottom: 25vh;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -74,7 +74,7 @@
 
 .text-P {
   font-family: var(--main-font);
-  font-size: clamp(45px, 5vw, 80px);
+  font-size: clamp(45px, 6vw, 80px);
   color: var(--tertiary--);
 }
 
@@ -91,7 +91,7 @@
 .text-T {
   font-family: var(--tertiary-font);
   margin-right: 5rem;
-  max-width: 900px;
+  max-width: 45vw;
   word-wrap: break-word;
   font-size: clamp(18px, 5vw, 20px);
   color: var(--secondary--);
@@ -99,4 +99,10 @@
 
 #name {
   color: var(--quaternary--);
+}
+
+@media (max-width: 450px) {
+  .text-T {
+    max-width: 350px; /* Adjust width for smaller screens */
+  }
 }

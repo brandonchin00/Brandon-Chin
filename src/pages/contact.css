@@ -50,6 +50,7 @@
   cursor: pointer;
   font-family: var(--secondary-font);
   transition: 0.3s ease;
+  text-decoration: none;
 }
 
 .contact-button:hover {
@@ -67,6 +68,18 @@
   font-size: 15px;
 }
 
-.end-credit {
-  padding-bottom: 5%;
+.bottom-bar {
+  width: 75px;
+  margin: 0 auto;
+}
+.bottom-bar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+  .contact-content {
+    max-width: 325px;
+  }
 }

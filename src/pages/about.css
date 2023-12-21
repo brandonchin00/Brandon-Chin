@@ -1,6 +1,7 @@
 .About-Wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
@@ -8,6 +9,7 @@
 
 .Story-Container {
   box-sizing: border-box;
+  margin-right: 15%;
 }
 
 .About-Title {
@@ -45,14 +47,11 @@
 }
 
 .Image-Container {
-  margin-right: 13%;
-  margin-top: 15%;
-  padding: 2rem;
   box-sizing: border-box;
 }
 
 .Image-Self {
-  max-width: 300px;
+  max-width: 250px;
   min-width: 60px; /* Ensures the image will not exceed the parent container's width */
   height: auto; /* Maintains the aspect ratio */
   display: block;
@@ -95,16 +94,20 @@
   }
 
   .Image-Self {
-    width: 250px;
+    width: 200px;
     height: auto;
     display: block;
     border-radius: 10px;
   }
 
   .Image-Container {
-    margin-right: 0;
-    margin-top: 0;
+    margin-right: 15%;
+    margin-top: 10%;
     padding-left: 15vw;
     box-sizing: border-box;
+  }
+
+  .Story-Container {
+    margin-right: 0%;
   }
 }

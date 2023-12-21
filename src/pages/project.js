@@ -11,7 +11,9 @@ const Project = () => {
           believe that grasping the fundamental tools for project development is
           pivotal in effective team leadership.
         </p>
-        <Card />
+        <ul className="Project-Grid">
+          <Card />
+        </ul>
       </div>
     </div>
   );

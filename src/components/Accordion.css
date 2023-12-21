@@ -36,7 +36,7 @@ body {
 }
 
 .date {
-  font-size: clamp(40px, 4vw, 80px);
+  font-size: clamp(40px, 5vw, 80px);
   font-weight: 300px;
   color: #343a40;
   font-family: sans-serif;
