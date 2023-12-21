@@ -15,6 +15,28 @@ export function Navbar() {
     setClicked(false);
   };
 
+  const handleDownload = () => {
+    const fileName = `Brandon_Chin.pdf`;
+    console.log(fileName);
+    const filePath = `../file/${fileName}`;
+    console.log(filePath);
+
+    fetch(filePath)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", fileName);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch((error) => {
+        console.error("Error fetching the PDF file:", error);
+      });
+  };
+
   return (
     <nav className="nav-wrapper">
       <div className="nav-wrapper2">
@@ -60,14 +82,7 @@ export function Navbar() {
             </Link>
           </li>
           <li className="buttonContact">
-            <Link
-              to="contactSection"
-              smooth={true}
-              duration={500}
-              onClick={hideNavbar}
-            >
-              Resume
-            </Link>
+            <p onClick={handleDownload}>Resume</p>
           </li>
         </ul>
       </div>

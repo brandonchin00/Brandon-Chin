@@ -49,6 +49,7 @@
   background: none;
   cursor: pointer;
   font-family: var(--secondary-font);
+  transition: 0.3s ease;
 }
 
 .contact-button:hover {

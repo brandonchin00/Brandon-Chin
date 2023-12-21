@@ -1,12 +1,12 @@
 .Project-Wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .Project-Container {
   display: block;
   box-sizing: border-box;
   margin-bottom: 5%;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 .Project-Container h2 {

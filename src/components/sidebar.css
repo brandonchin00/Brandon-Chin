@@ -1,0 +1,64 @@
+.sidebar-list {
+  position: fixed;
+  left: 1vw;
+  bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border-bottom: 2px solid white;
+}
+
+.s {
+  margin: 50%;
+}
+
+.icon-1 {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  transition: transform 1s ease;
+}
+
+.icon-2-core {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  transition: transform 1s ease;
+}
+
+.icon-1:hover {
+  fill: var(--quaternary--);
+  transform: translate(0, -50%);
+  transition: 0.3s ease;
+}
+
+.icon-2-core:hover {
+  transform: translate(0, -50%);
+  transition: 0.3s ease;
+  .icon-2 {
+    stroke: var(--quaternary--);
+  }
+}
+
+.rotated-text {
+  transition: transform 1s ease;
+  font-family: var(--tertiary-font);
+  color: #6c757d;
+  text-decoration: none;
+  writing-mode: vertical-rl; /* Rotate text by 90 degrees */
+  transform: rotate(-180deg); /* Adjust rotation direction if needed */
+  transform-origin: center; /* Rotate from the center */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.rotated-text:hover {
+  transition: 0.3s ease;
+  transform: rotate(-180deg) translateY(10%); /* Adjust translateY value */
+  color: var(--quaternary--);
+}

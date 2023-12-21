@@ -17,6 +17,7 @@
   border-radius: 8px;
   overflow: hidden;
   margin-top: 10px;
+  transition: 0.3s ease;
 }
 
 .card-container:hover {
@@ -39,6 +40,7 @@
   box-sizing: inherit;
   display: block;
   object-fit: cover;
+  transition: 0.3s ease;
 }
 
 .imageCard-container img {
@@ -63,7 +65,7 @@
   font-family: var(--main-font);
   font-weight: 400;
   padding: 3% 4%;
-
+  transition: 0.3s ease;
   color: white;
 }
 
@@ -72,6 +74,7 @@
   font-size: clamp(10px, 8vw, 15px);
   font-family: var(--secondary-font);
   color: var(--quinary--);
+  transition: 0.3s ease;
 }
 
 .tag-container {
