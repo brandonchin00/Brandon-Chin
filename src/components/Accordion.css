@@ -47,7 +47,6 @@ body {
 .content-box {
   padding-bottom: 16px;
   line-height: 1.6;
-  font-family: sans-serif;
 }
 
 .content-box ul {
@@ -58,7 +57,9 @@ body {
 }
 
 .Accordion-Image {
-  max-width: 20vw;
+  max-width: 450px;
+  min-width: 100px;
+  width: auto;
   height: auto;
   object-fit: cover;
   object-position: center;
@@ -66,7 +67,9 @@ body {
 }
 
 .Accordion-Image-2 {
-  max-width: 20vw;
+  max-width: 450px;
+  min-width: 100px;
+  width: auto;
   height: auto;
   object-fit: cover;
   object-position: center;
@@ -137,10 +140,10 @@ body {
     background-color: rgb(170, 234, 255);
     color: black;
     .title {
-      color: black;
+      color: rgb(0, 191, 255);
     }
     .date {
-      color: black;
+      color: rgb(0, 191, 255);
     }
   }
 }

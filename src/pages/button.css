@@ -13,7 +13,7 @@
   padding: var(--fn-sm);
   background: transparent;
   font-family: var(--tertiary-font);
-  font-size: clamp(10px, 5vw, 25px);
+  font-size: clamp(10px, 5vw, 20px);
   color: var(--quaternary--);
   text-decoration: none;
   text-align: center;

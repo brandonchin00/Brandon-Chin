@@ -52,18 +52,18 @@ const About = () => {
             first video game
           </a>
           . The process of creating something of your own and sharing it with
-          the world fascinated me. I loved engaging in the meticulous process of
-          reviewing the user's journey and making subtle changes to enhance the
-          overall experience. overall experience, is what I loved doing.
+          the world fascinated me. Coupled with meticulous process of analyzing
+          a user's experience and making improvements, I loved developing and
+          refining a product.
         </span>
         <br />
         <br />
         <span className="Paragraph Paragraph-3">
-          I've transformed my childhood passion into a full-time professional
-          career. From launching a startup in college to crafting websites,
-          apps, and Figma designs to cater to client requirements, it's an
-          understatement to say that I've merely developed a passion for the
-          intersection of business and technology.
+          Since then, I've transformed my childhood passion into a full-time
+          professional career. From launching a startup in college to crafting
+          websites, apps, and Figma designs to cater to client requirements,
+          it's an understatement to say that I've merely developed a passion for
+          the intersection of business and technology.
         </span>
         <br />
         <br />

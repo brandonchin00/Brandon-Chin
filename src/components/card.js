@@ -42,7 +42,7 @@ function CardItem({
   title_in,
   process,
 }) {
-  const tagUpdated = String(tags).split(" ");
+  const tagUpdated = String(tags).split(":");
   const [activeIndex, setActiveIndex] = useState(0);
   const goToSlide = (index) => {
     setActiveIndex(index);

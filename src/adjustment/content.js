@@ -11,7 +11,7 @@ const animated = {
 const content = [
   {
     title: "Product Management Intern at Publicis Sapient",
-    text: "I led a team of five Software Engineer Interns in building an expense management app for iOS/Android using agile methods. Through 97 JIRA tickets across four sprints, we successfully developed and launched the app. I conducted 18 usability interviews, refining UI/UX and collaborating with UX associates. Additionally, I spearheaded the creation and integration of an AI Chatbot, enhancing the app's functionality to calculate expenses and offer tailored user recommendations for saving money.",
+    text: "I co-led a team of five Software Engineer Interns in building an expense management app for iOS/Android using agile methodology. Through 97 JIRA tickets across four sprints, we successfully developed and launched an expense management app. Through 18 usability interviews, my team and I refined the UI/UX of the application. Additionally, I built a mock AI Chatbot to understand its capabilities and implementation process.",
     date: "2023",
     month: "June – August",
     company: "Publicis Sapient",
@@ -65,7 +65,7 @@ const projects = [
     image: "../card-images/fyt.png",
     title: "Internal Product Database",
     text: "An internal tool for company branch managers to actively manage and track their existing products.",
-    tags: "Node.js React.js SEO Figma",
+    tags: "Node.js:React.js:Figma:Product Management",
     images: {
       image_1: "../card-images/fyt.png",
       image_2: "../card-images/fyt-1.png",
@@ -79,32 +79,71 @@ const projects = [
       "A web page designed to streamline information presentation for agents, featuring an intuitive user interface and captivating graphics to efficiently communicate information. This aims to rapidly replace the conventional use of Excel sheets.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "FYT Figma MockUp",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "React.js Web SEO Canva",
+    image: "../card-images/fyt-app.png",
+    title: "App Design and Requirements",
+    text: "An app that centralizes customer data and offer end-to-end concierge service",
+    tags: "Figma:Product Management",
+    images: {
+      image_1: "../card-images/fyt-app.png",
+      image_2: "../card-images/fyt-app-1.png",
+      image_3: "../card-images/fyt-app-2.png",
+    },
+    title_in: "Mobile App for Travel Agency Customers",
+    task: "Executives raised a problem: 'How can we gain a competitive edge in a saturated market?'",
+    process:
+      "I began by analyzing the company's product lines; however, I found it challenging to create product differentiation in a price-sensitive market. Through an analysis of multi-competitor operations, I identified service as an area to gain a competitive edge. After consulting management, they agreed on the direction and green-lit the project. I proceeded to draft requirements and analyze UX on apps that customers who are already accustomed to WeChat, Douyin, and Xiaohongshu. Through my analysis, I crafted a 10-page PRD to thoroughly walk management through the user experience and key features. After some revisions, I received approval and started development. ",
+    solution:
+      "A mobile application designed to empower a travel agency, offering personalized concierge-like services upon customers' purchase of company products.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Amazon Auto Case Study",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Instagram Facebook Tiktok",
+    image: "../card-images/case-pm.png",
+    title: "Amazon Case Study",
+    text: "I did my own case study on a hypothetical situation where Amazon executives opted to venture into the car retail industry. ",
+    tags: "Product Management",
+    images: {
+      image_1: "../card-images/case-pm.png",
+      image_2: "../card-images/case-pm-1.png",
+      image_3: "../card-images/case-pm-2.png",
+    },
+    title_in: "Amazon Case Study: Amazon Auto",
+    task: "To break into the car industry, Amazon wants to offer selling cars online as an option to Amazon’s Customers. In order to accommodate a range of customers, financing and payment options need to be offered for customers. ",
+    process:
+      "First, understand the problem and goal. Identifiy and vertify assumptions. Survey customer and gather data. Identify customer needs and user journey. Craft user stories to identify all possible features. Use MSCW framework, T-Shirt framework, and Effort/Value map to narrow down features for MVP. Employ OKRs strategy, identify key success metrics, and AARRR metrics. Craft low-fi mockup of solution.",
+    solution: "An online e-commerce platform for cars.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "FTY Web Application",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Figma iOS Android",
+    image: "../card-images/ml.png",
+    title: "ML Algorithm for Loan Assessment",
+    text: "To assess the likelihood of a person defaulting on their loan according to various factors",
+    tags: "Machine Learning:R",
+    images: {
+      image_1: "../card-images/ml.png",
+      image_2: "../card-images/ml-1.png",
+      image_3: "../card-images/ml-2.png",
+    },
+    title_in: "Loan Default Risk Assessment",
+    task: "I am given a comphrensive dataset with various factors (age, income, number of active loans, dependents, etc). Given the these factors, I am to determine the likelihood of defaulting on a loan. Additionally determine the best machine learning model to use and why?",
+    process:
+      "I first cleaned the data and fill the empty values/corrupted values using a predictive model (Data Reprocessing). I then chose specific variables for binning and decided the binning width according to various factors. Next, I constructed two ML models: (Naive Bayes and Nueral Net) I identified the one whom performed the best in comparision to the benchmark error rate. I then used the ensemble method(boosting and bagging) to assess if it would draw a lower error rate. Aftewards, I wrote my process and decision in a full-report.",
+    solution:
+      "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Movie Rating Web Application",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "React.js Web SEO Canva",
+    image: "../card-images/popcorn.png",
+    title: "Rate and Watchlist",
+    text: "To assess the likelihood of a person defaulting on their loan according to various factors",
+    tags: "React.js:Node.js",
+    images: {
+      image_1: "../card-images/popcorn.png",
+      image_2: "../card-images/popcorn-1.png",
+      image_3: "../card-images/popcorn-2.png",
+    },
+    title_in: "Loan Default Risk Assessment",
+    task: "I am given a comphrensive dataset with various factors (age, income, number of active loans, dependents, etc). Given the these factors, I am to determine the likelihood of defaulting on a loan. Additionally determine the best machine learning model to use and why?",
+    process:
+      "I first cleaned the data and fill the empty values/corrupted values using a predictive model (Data Reprocessing). I then chose specific variables for binning and decided the binning width according to various factors. Next, I constructed two ML models: (Naive Bayes and Nueral Net) I identified the one whom performed the best in comparision to the benchmark error rate. I then used the ensemble method(boosting and bagging) to assess if it would draw a lower error rate. Aftewards, I wrote my process and decision in a full-report.",
+    solution:
+      "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
     image:
