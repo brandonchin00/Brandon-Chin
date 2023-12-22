@@ -104,6 +104,7 @@ export function Navbar() {
             <p onClick={handleDownload}>Resume</p>
           </li>
         </ul>
+        <img className="nav-logo" src="../card-images/bc.png" alt="logo"></img>
       </div>
       <div id="mobile" onClick={toggleMenu}>
         <FontAwesomeIcon

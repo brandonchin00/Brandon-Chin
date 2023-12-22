@@ -59,11 +59,11 @@ const About = () => {
         <br />
         <br />
         <span className="Paragraph Paragraph-3">
-          Since then, I've transformed my childhood passion into a full-time
-          professional career. From launching a startup in college to crafting
-          websites, apps, and Figma designs to cater to client requirements,
-          it's an understatement to say that I've merely developed a passion for
-          the intersection of business and technology.
+          Since then, I've sought to transform my childhood passion into a
+          full-time professional career. From launching a startup in college to
+          crafting websites, apps, and Figma designs to cater to client
+          requirements, it's an understatement to say that I've merely developed
+          a passion for the intersection of business and technology.
         </span>
         <br />
         <br />

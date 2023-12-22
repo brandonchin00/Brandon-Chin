@@ -3,6 +3,7 @@
   flex-direction: row-reverse;
   align-items: center;
   background-color: var(--primary--);
+  justify-content: space-between;
 }
 
 .navbar li {
@@ -16,6 +17,12 @@
   cursor: pointer;
   color: var(--secondary--);
   margin: 1rem;
+}
+
+.nav-logo {
+  width: 100px;
+  height: auto;
+  margin-left: 1%;
 }
 
 .navbar li a:hover {
