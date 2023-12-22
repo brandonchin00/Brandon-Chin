@@ -131,7 +131,7 @@ function CardItem({
         </div>
         <div className="pop-content-container">
           <h4 className="pop-title">{title_in}</h4>
-          <h5 className="popup-subtitle">Problem</h5>
+          <h5 className="popup-subtitle">Task</h5>
           <h6 className="pop-content">{task}</h6>
           <h5 className="popup-subtitle">Process</h5>
           <h6 className="pop-content">{process}</h6>

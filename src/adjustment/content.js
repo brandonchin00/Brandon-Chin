@@ -132,7 +132,7 @@ const projects = [
     image: "../card-images/popcorn.png",
     title: "Rate and Watchlist",
     text: "To assess the likelihood of a person defaulting on their loan according to various factors",
-    tags: "React.js:Node.js",
+    tags: "Passion Project:React.js:Node.js",
     images: {
       image_1: "../card-images/popcorn.png",
       image_2: "../card-images/popcorn-1.png",
@@ -146,25 +146,55 @@ const projects = [
       "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Travel Packing Web Application",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Instagram Facebook Tiktok",
+    image: "../card-images/pack.png",
+    title: "Packing List",
+    text: "To assess the likelihood of a person defaulting on their loan according to various factors",
+    tags: "Passion Project:React.js:Node.js",
+    images: {
+      image_1: "../card-images/pack.png",
+      image_2: "../card-images/pack-1.png",
+      image_3: "../card-images/pack-2.png",
+    },
+    title_in: "Loan Default Risk Assessment",
+    task: "I am given a comphrensive dataset with various factors (age, income, number of active loans, dependents, etc). Given the these factors, I am to determine the likelihood of defaulting on a loan. Additionally determine the best machine learning model to use and why?",
+    process:
+      "I first cleaned the data and fill the empty values/corrupted values using a predictive model (Data Reprocessing). I then chose specific variables for binning and decided the binning width according to various factors. Next, I constructed two ML models: (Naive Bayes and Nueral Net) I identified the one whom performed the best in comparision to the benchmark error rate. I then used the ensemble method(boosting and bagging) to assess if it would draw a lower error rate. Aftewards, I wrote my process and decision in a full-report.",
+    solution:
+      "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Personal Expenses Web Application",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Instagram Facebook Tiktok",
+    image: "../card-images/expense.png",
+    title: "Simple Expense Tracker",
+    text: "To assess the likelihood of a person defaulting on their loan according to various factors",
+    tags: "Passion Project:React.js:Node.js",
+    images: {
+      image_1: "../card-images/expense.png",
+      image_2: "../card-images/expense-1.png",
+      image_3: "../card-images/expense-2.png",
+    },
+    title_in: "Loan Default Risk Assessment",
+    task: "I am given a comphrensive dataset with various factors (age, income, number of active loans, dependents, etc). Given the these factors, I am to determine the likelihood of defaulting on a loan. Additionally determine the best machine learning model to use and why?",
+    process:
+      "I first cleaned the data and fill the empty values/corrupted values using a predictive model (Data Reprocessing). I then chose specific variables for binning and decided the binning width according to various factors. Next, I constructed two ML models: (Naive Bayes and Nueral Net) I identified the one whom performed the best in comparision to the benchmark error rate. I then used the ensemble method(boosting and bagging) to assess if it would draw a lower error rate. Aftewards, I wrote my process and decision in a full-report.",
+    solution:
+      "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Social Media Account Operation",
-    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
-    tags: "Instagram Facebook Tiktok",
+    image: "../card-images/pole.png",
+    title: "Polestar Growth Opportunity",
+    text: "To assess the likelihood of a person defaulting on their loan according to various factors",
+    tags: "Passion Project:React.js:Node.js",
+    images: {
+      image_1: "../card-images/pole.png",
+      image_2: "../card-images/pole-1.png",
+      image_3: "../card-images/pole-2.png",
+    },
+    title_in: "Loan Default Risk Assessment",
+    task: "I am given a comphrensive dataset with various factors (age, income, number of active loans, dependents, etc). Given the these factors, I am to determine the likelihood of defaulting on a loan. Additionally determine the best machine learning model to use and why?",
+    process:
+      "I first cleaned the data and fill the empty values/corrupted values using a predictive model (Data Reprocessing). I then chose specific variables for binning and decided the binning width according to various factors. Next, I constructed two ML models: (Naive Bayes and Nueral Net) I identified the one whom performed the best in comparision to the benchmark error rate. I then used the ensemble method(boosting and bagging) to assess if it would draw a lower error rate. Aftewards, I wrote my process and decision in a full-report.",
+    solution:
+      "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
     image:
