@@ -79,7 +79,7 @@ const projects = [
       "A web page designed to streamline information presentation for agents, featuring an intuitive user interface and captivating graphics to efficiently communicate information. This aims to rapidly replace the conventional use of Excel sheets.",
   },
   {
-    image: "../card-images/fyt-app.png",
+    image: "./card-images/fyt-app.png",
     title: "App Design and Requirements",
     text: "An app that centralizes customer data and offer end-to-end concierge service",
     tags: "Figma:Product Management",
@@ -129,7 +129,7 @@ const projects = [
       "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
-    image: "../card-images/popcorn.png",
+    image: "./card-images/popcorn.png",
     title: "Rate and Watchlist",
     text: "To assess the likelihood of a person defaulting on their loan according to various factors",
     tags: "Passion Project:React.js:Node.js",
@@ -163,7 +163,7 @@ const projects = [
       "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
-    image: "../card-images/expense.png",
+    image: "./card-images/expense.png",
     title: "Simple Expense Tracker",
     text: "To assess the likelihood of a person defaulting on their loan according to various factors",
     tags: "Passion Project:React.js:Node.js",
@@ -180,7 +180,7 @@ const projects = [
       "A 21-page documentation on my chose of ML algorithm to address the problem",
   },
   {
-    image: "../card-images/pole.png",
+    image: "./card-images/pole.png",
     title: "Polestar Growth Opportunity",
     text: "To assess the likelihood of a person defaulting on their loan according to various factors",
     tags: "Passion Project:React.js:Node.js",
