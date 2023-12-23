@@ -8,7 +8,7 @@ const Intro = () => {
   const handleDownload = () => {
     const fileName = `Brandon_Chin.pdf`;
     console.log(fileName);
-    const filePath = `../file/${fileName}`;
+    const filePath = `./file/${fileName}`;
     console.log(filePath);
 
     fetch(filePath)

@@ -29,7 +29,7 @@ export function Navbar() {
   const handleDownload = () => {
     const fileName = `Brandon_Chin.pdf`;
     console.log(fileName);
-    const filePath = `../file/${fileName}`;
+    const filePath = `./file/${fileName}`;
     console.log(filePath);
 
     fetch(filePath)
@@ -103,7 +103,7 @@ export function Navbar() {
             <p onClick={handleDownload}>Resume</p>
           </li>
         </ul>
-        <img className="nav-logo" src="../card-images/bc.png" alt="logo"></img>
+        <img className="nav-logo" src="./card-images/bc.png" alt="logo"></img>
       </div>
     </nav>
   );
