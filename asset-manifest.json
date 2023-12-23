@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/www.brandonchin.com/static/css/main.6e698f75.css",
-    "main.js": "/www.brandonchin.com/static/js/main.1e90ecce.js",
-    "static/media/image.jpeg": "/www.brandonchin.com/static/media/image.d5479a95416a8de581fc.jpeg",
-    "index.html": "/www.brandonchin.com/index.html",
-    "main.6e698f75.css.map": "/www.brandonchin.com/static/css/main.6e698f75.css.map",
-    "main.1e90ecce.js.map": "/www.brandonchin.com/static/js/main.1e90ecce.js.map"
+    "main.css": "/Brandon-Chin/static/css/main.6e698f75.css",
+    "main.js": "/Brandon-Chin/static/js/main.15b66b59.js",
+    "static/media/image.jpeg": "/Brandon-Chin/static/media/image.d5479a95416a8de581fc.jpeg",
+    "index.html": "/Brandon-Chin/index.html",
+    "main.6e698f75.css.map": "/Brandon-Chin/static/css/main.6e698f75.css.map",
+    "main.15b66b59.js.map": "/Brandon-Chin/static/js/main.15b66b59.js.map"
   },
   "entrypoints": [
     "static/css/main.6e698f75.css",
-    "static/js/main.1e90ecce.js"
+    "static/js/main.15b66b59.js"
   ]
 }
