@@ -1,7 +1,7 @@
 import React from "react";
 import "./button.css";
 import "./intro.css";
-// import image1 from "../adjustment/image.jpeg";
+
 import { Link } from "react-scroll";
 
 const Intro = () => {
@@ -59,7 +59,3 @@ const Intro = () => {
 };
 
 export default Intro;
-
-// Fix the CSS Naming to Allow multi CSS Reuse
-// Fix the Section (Home, Section 1)
-// Ensure that the @media is for a specific media

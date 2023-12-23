@@ -8,7 +8,6 @@
   --senary--: rgb(152, 152, 152);
   --septenary--: #343a40;
   --octonary--: rgb(72, 72, 72);
-  --nonary--: /* value */ ;
 
   --main-font: "Montserrat";
   --secondary-font: "Orienta", sans-serif;
@@ -24,7 +23,6 @@
   --fn-heading: 32px;
 }
 
-/* wave element */
 @keyframes wave {
   0%,
   20% {
@@ -103,6 +101,6 @@
 
 @media (max-width: 450px) {
   .text-T {
-    max-width: 350px; /* Adjust width for smaller screens */
+    max-width: 350px;
   }
 }

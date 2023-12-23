@@ -52,10 +52,10 @@
 
 .Image-Self {
   max-width: 250px;
-  min-width: 60px; /* Ensures the image will not exceed the parent container's width */
-  height: auto; /* Maintains the aspect ratio */
+  min-width: 60px;
+  height: auto;
   display: block;
-  border-radius: 10px; /* Removes any extra space under the image */
+  border-radius: 10px;
 }
 
 .Skill-List {

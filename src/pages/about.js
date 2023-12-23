@@ -7,7 +7,6 @@ import { animated } from "../adjustment/content.js";
 const About = () => {
   return (
     <div className="About-Wrapper">
-      {/* <h1 id="story-title">About Me</h1> */}
       <div className="Story-Container" id="introSection">
         <h1 className="About-Title">About Me</h1>
         <br />

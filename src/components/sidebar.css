@@ -51,15 +51,15 @@
   font-family: var(--tertiary-font);
   color: #6c757d;
   text-decoration: none;
-  writing-mode: vertical-rl; /* Rotate text by 90 degrees */
-  transform: rotate(-180deg); /* Adjust rotation direction if needed */
-  transform-origin: center; /* Rotate from the center */
-  white-space: nowrap; /* Prevent text from wrapping */
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  transform-origin: center;
+  white-space: nowrap;
 }
 
 .rotated-text:hover {
   transition: 0.3s ease;
-  transform: rotate(-180deg) translateY(10%); /* Adjust translateY value */
+  transform: rotate(-180deg) translateY(10%);
   color: var(--quaternary--);
 }
 

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="contact-wrapper" id="contactSection">
       <div className="contact-container">
-        <h4 className="contact-subtitle">Looking Your Next Teammate?</h4>
+        <h4 className="contact-subtitle">Looking For Your Next Teammate?</h4>
         <h2 className="contact-title">Get in Touch</h2>
         <p className="contact-content">
           I'm currently looking for a full-time position as a product manager
