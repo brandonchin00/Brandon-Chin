@@ -59,9 +59,29 @@
 }
 
 .Skill-List {
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  overflow: hidden;
+  list-style: none;
+  margin: 3% 0;
 }
 
+.Skill-List li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-left: 5px;
+  margin-bottom: 12px;
+  font-family: var(--tertiary-font);
+  font-size: clamp(15px, 5vw, 20px);
+  color: var(--quaternary--);
+}
+
+.list-icon {
+  height: 15px;
+  width: auto;
+}
 .College {
   text-decoration: none;
   color: var(--quaternary--);
@@ -85,7 +105,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .About-Wrapper {
     display: flex;
     flex-direction: column;

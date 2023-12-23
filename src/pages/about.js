@@ -53,32 +53,226 @@ const About = () => {
           </a>
           . The process of creating something of your own and sharing it with
           the world fascinated me. Coupled with meticulous process of analyzing
-          a user's experience and making improvements, I loved developing and
-          refining a product.
+          a user's experience and making improvements, I loved it.
         </span>
         <br />
         <br />
         <span className="Paragraph Paragraph-3">
-          Since then, I've sought to transform my childhood passion into a
-          full-time professional career. From launching a startup in college to
-          crafting websites, apps, and Figma designs to cater to client
-          requirements, it's an understatement to say that I've merely developed
-          a passion for the intersection of business and technology.
-        </span>
-        <br />
-        <br />
-        <span className="Paragraph Paragraph-4">
-          To better articulate it, I'll show you what I've been doing. 😊
-          {/* <ul className="Skill-List">
-            <h3>Tools</h3>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>SQL</li>
-            <li>Figma</li>
-            <li>Python</li>
-            <li>HTML/CSS</li>
-          </ul> */}
+          To turn this passion into a career, I took action!
+          <br />
+          Here are some of my skills:
+          <ul className="Skill-List">
+            <li>
+              <svg
+                className="list-icon"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <path
+                    d="M9 5L15 12L9 19"
+                    stroke="#ffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+              JavaScript
+            </li>
+            <li>
+              <svg
+                className="list-icon"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <path
+                    d="M9 5L15 12L9 19"
+                    stroke="#ffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+              React
+            </li>
+            <li>
+              <svg
+                className="list-icon"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <path
+                    d="M9 5L15 12L9 19"
+                    stroke="#ffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+              Node.js
+            </li>
+            <li>
+              <svg
+                className="list-icon"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <path
+                    d="M9 5L15 12L9 19"
+                    stroke="#ffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+              SQL & R
+            </li>
+            <li>
+              <svg
+                className="list-icon"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <path
+                    d="M9 5L15 12L9 19"
+                    stroke="#ffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+              Figma
+            </li>
+            <li>
+              <svg
+                className="list-icon"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <path
+                    d="M9 5L15 12L9 19"
+                    stroke="#ffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+              Python
+            </li>
+            <li>
+              <svg
+                className="list-icon"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  {" "}
+                  <path
+                    d="M9 5L15 12L9 19"
+                    stroke="#ffff"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+              HTML & CSS
+            </li>
+          </ul>
         </span>
       </div>
       <div className="Image-Container">

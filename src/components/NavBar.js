@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export function Navbar() {
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
   const [navbar, setNavBar] = useState(false);
 
   const toggleMenu = () => {
@@ -16,23 +14,17 @@ export function Navbar() {
   const hideNavbar = () => {
     setNavBar(false);
   };
+  const handleScroll = () => {
+    setNavBar(false);
+  };
 
   useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-
-      setVisible(
-        (prevScrollPos > currentScrollPos &&
-          prevScrollPos - currentScrollPos > 70) ||
-          currentScrollPos < 10
-      );
-
-      setPrevScrollPos(currentScrollPos);
-    };
-
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [prevScrollPos]);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleDownload = () => {
     const fileName = `Brandon_Chin.pdf`;
@@ -59,6 +51,13 @@ export function Navbar() {
   return (
     <nav>
       <div className={"nav-wrapper2"}>
+        <div id="mobile" onClick={toggleMenu}>
+          <FontAwesomeIcon
+            id="icon"
+            icon={navbar ? faXmark : faBars}
+            style={{ transform: `rotate(${navbar ? "90deg" : "0deg"})` }}
+          />
+        </div>
         <ul className={navbar ? "navbar active" : "navbar"}>
           <li className="buttonAbout">
             <Link
@@ -105,13 +104,6 @@ export function Navbar() {
           </li>
         </ul>
         <img className="nav-logo" src="../card-images/bc.png" alt="logo"></img>
-      </div>
-      <div id="mobile" onClick={toggleMenu}>
-        <FontAwesomeIcon
-          id="icon"
-          icon={navbar ? faXmark : faBars}
-          style={{ transform: `rotate(${navbar ? "90deg" : "0deg"})` }}
-        />
       </div>
     </nav>
   );

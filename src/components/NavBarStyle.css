@@ -81,10 +81,15 @@
     transition: transform 0.4s ease-in-out;
     align-self: flex-end;
     padding: 1rem;
+    z-index: 999;
   }
 
   .buttonContact {
     border: 2px solid var(--secondary--);
     margin-bottom: 2px !important;
+  }
+
+  .nav-logo {
+    z-index: 999;
   }
 }
