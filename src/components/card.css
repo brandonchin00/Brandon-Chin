@@ -170,7 +170,7 @@
   box-sizing: inherit;
   font-size: clamp(15px, 3vw, 18px);
   font-family: var(--tertiary-font);
-  padding: 3% 3%;
+  padding: 1.5% 3%;
   border-bottom: none;
   font-weight: 500;
 }
