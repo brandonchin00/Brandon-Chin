@@ -63,7 +63,7 @@
 
 .Intro-Container li {
   list-style-type: none;
-  padding: 1rem 0 0 0;
+  padding: 1.25rem 0 0 0;
 }
 
 .List-Container {
@@ -91,7 +91,7 @@
   margin-right: 5rem;
   max-width: 45vw;
   word-wrap: break-word;
-  font-size: clamp(18px, 5vw, 20px);
+  font-size: clamp(18px, 6vw, 25px);
   color: var(--secondary--);
 }
 

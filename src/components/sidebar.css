@@ -1,13 +1,13 @@
 .sidebar-list {
   position: fixed;
   left: 1vw;
-  bottom: 2vh;
+  bottom: 3vh;
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   list-style: none;
   border-bottom: 2px solid white;
 }
@@ -24,9 +24,15 @@
   transition: transform 1s ease;
 }
 
+.icon-3 {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
 .icon-2-core {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin: 0;
   padding: 0;
   transition: transform 1s ease;
@@ -38,6 +44,18 @@
   transition: 0.3s ease;
 }
 
+.icon-3-core {
+  transition: transform 1s ease;
+}
+
+.icon-3-core:hover {
+  transform: translate(0, -50%);
+  transition: 0.3s ease;
+  .icon-3 {
+    fill: var(--quaternary--);
+  }
+}
+
 .icon-2-core:hover {
   transform: translate(0, -50%);
   transition: 0.3s ease;
@@ -46,7 +64,7 @@
   }
 }
 
-.rotated-text {
+/* .rotated-text {
   transition: transform 1s ease;
   font-family: var(--tertiary-font);
   color: #6c757d;
@@ -61,7 +79,7 @@
   transition: 0.3s ease;
   transform: rotate(-180deg) translateY(10%);
   color: var(--quaternary--);
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .sidebar-container {
