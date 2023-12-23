@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Brandon-Chin/static/css/main.6067f347.css",
-    "main.js": "/Brandon-Chin/static/js/main.e9cf384c.js",
-    "static/media/image.jpeg": "/Brandon-Chin/static/media/image.d5479a95416a8de581fc.jpeg",
-    "index.html": "/Brandon-Chin/index.html",
-    "main.6067f347.css.map": "/Brandon-Chin/static/css/main.6067f347.css.map",
-    "main.e9cf384c.js.map": "/Brandon-Chin/static/js/main.e9cf384c.js.map"
+    "main.css": "/static/css/main.6067f347.css",
+    "main.js": "/static/js/main.08813f90.js",
+    "static/media/image.jpeg": "/static/media/image.d5479a95416a8de581fc.jpeg",
+    "index.html": "/index.html",
+    "main.6067f347.css.map": "/static/css/main.6067f347.css.map",
+    "main.08813f90.js.map": "/static/js/main.08813f90.js.map"
   },
   "entrypoints": [
     "static/css/main.6067f347.css",
-    "static/js/main.e9cf384c.js"
+    "static/js/main.08813f90.js"
   ]
 }
