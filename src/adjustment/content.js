@@ -96,14 +96,14 @@ const projects = [
       "A mobile application designed to empower a travel agency, offering personalized concierge-like services upon customers' purchase of company products.",
   },
   {
-    image: "./card-images/case-pm.png",
+    image: "./card-images/case.png",
     title: "Amazon Case Study",
     text: "My own case study on a hypothetical situation where Amazon executives opted to venture into the car retail industry. ",
     tags: "Product Management",
     images: {
-      image_1: "./card-images/case-pm.png",
-      image_2: "./card-images/case-pm-1.png",
-      image_3: "./card-images/case-pm-2.png",
+      image_1: "./card-images/case-1.png",
+      image_2: "./card-images/case-2.png",
+      image_3: "./card-images/case-3.png",
     },
     title_in: "Amazon Case Study: Amazon Auto",
     task: "To break into the car industry, Amazon wants to offer selling cars online as an option to Amazon’s Customers. In order to accommodate a range of customers, financing and payment options need to be offered for customers. ",
