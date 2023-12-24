@@ -20,7 +20,7 @@ const content = [
   },
   {
     title: "Product Management Intern at Mobilize.IT",
-    text: "I collaborated with the Senior VP, analyzing 15 features to optimize our product, which led to implementing 3 UI fixes. I interviewed over 50 users and crafted 5 blog posts focusing on product-market fit for the US market. Additionally, I conducted a competitor analysis, through which I identified 5 key feature recommendations for product differentiation.",
+    text: "I collaborated with the Senior VP, analyzing 15 features to optimize our product, which led to implementing 3 UI fixes. I interviewed over 30 users and crafted 5 blog posts focusing on product-market fit for the US market. Additionally, I conducted a competitor analysis, through which I identified 5 key feature recommendations for product differentiation.",
     date: "2022",
     month: "February – April",
     image: "./images/mob.png",
