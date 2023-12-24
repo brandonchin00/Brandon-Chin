@@ -11,7 +11,7 @@ const animated = {
 const content = [
   {
     title: "Product Management Intern at Publicis Sapient",
-    text: "I co-led a team of five Software Engineer Interns in building an expense management app for iOS/Android using agile methodology. Across four sprints, we successfully developed and launched the app, managing 97 JIRA tickets. To refine the application's UI/UX, my team and I conducted 18 usability interviews. Furthermore, I personally constructed a mock AI Chatbot to explore its capabilities and the implementation process.",
+    text: "I co-led a team of five Software Engineer Interns in building an expense management app for iOS/Android using agile methodology. Across four sprints, we successfully developed and launched the app, managing 97 JIRA tickets. To refine the application's UI/UX, my team and I conducted 18 usability interviews. Furthermore, I developed a mock AI Chatbot to explore its capabilities and the implementation process.",
     date: "2023",
     month: "June – August",
     company: "Publicis Sapient",
@@ -20,7 +20,7 @@ const content = [
   },
   {
     title: "Product Management Intern at Mobilize.IT",
-    text: "I collaborated with the Senior VP, analyzing 15 features to optimize our product, which led to implementing 3 UX fixes. I interviewed over 50 users and crafted 5 blog posts focusing on product-market fit for the US market. Additionally, I conducted a competitor analysis, through which I identified 5 key feature recommendations for product differentiation.",
+    text: "I collaborated with the Senior VP, analyzing 15 features to optimize our product, which led to implementing 3 UI fixes. I interviewed over 50 users and crafted 5 blog posts focusing on product-market fit for the US market. Additionally, I conducted a competitor analysis, through which I identified 5 key feature recommendations for product differentiation.",
     date: "2022",
     month: "February – April",
     image: "./images/mob.png",
@@ -28,7 +28,7 @@ const content = [
   },
   {
     title: "Business Development Intern at Echo3d",
-    text: "I conducted a competitor analysis and suggested 6 features to strengthen our market edge. Collaborating with an engineering team, I addressed 6 UI issues by thoroughly reviewing the user journey map for their SaaS product. Moreover, I utilized SeamlessAI to source clients within the retail clothing sector, offering valuable contacts to the VP of Sales for potential sales leads.",
+    text: "I conducted a competitor analysis and suggested 6 features to strengthen market competitiveness. I worked closely with the CEO to addressed 6 UI issues by thoroughly reviewing the user journey map for their SaaS product. Moreover, I utilized SeamlessAI to source clients within the retail clothing sector, offering valuable contacts to the VP of Sales for potential sales leads.",
     date: "2022",
     month: "January – April",
     image: "./images/echo.png",
@@ -36,7 +36,7 @@ const content = [
   },
   {
     title: "Financial Analyst Intern at Digital Factory",
-    text: "I developed an Excel calculator to assess OPEX for a $3M nationwide project with Walgreens. Additionally, I constructed and refined a $5M OPEX financial model for the Sales VP, enabling accurate calculations of development costs. Furthermore, I completed due diligence by compiling Excel data for investor outreach and applied for over 15 funding opportunities. I also conducted presentations on financial models for the EVP of Client Services and provided daily reports to the VP of Finance. Moreover, I created onboarding materials for 5 new interns and conducted a presentation to explain the new internal financial model.",
+    text: "I developed an Excel calculator to assess OPEX for a $3M nationwide project with Walgreens. Additionally, I constructed and refined a $5M OPEX financial model for the Sales VP, enabling accurate calculations of development costs. Furthermore, I completed due diligence by compiling Excel data for investor outreach and applied for over 15 funding opportunities. I also conducted presentations on financial models for the EVP of Client Services and provided daily reports to the VP of Finance. Moreover, I created a presentation to onboard 5 new financial analyst interns to explain the new internal financial model.",
     date: "2021",
     month: "June – August",
     image: "./images/digital.png",
