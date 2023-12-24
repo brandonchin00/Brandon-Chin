@@ -7,9 +7,9 @@ const Project = () => {
       <div className="Project-Container" id="projectSection">
         <h2>Projects</h2>
         <p>
-          Below, you'll find front-end development and coding projects. I
-          believe that grasping the fundamental tools for project development is
-          pivotal in effective team leadership.
+          Below, you'll find a diverse array of projects. I believe that
+          engaging with diverse projects enables one to understand various tools
+          and communication skills, fostering effective team leadership.
         </p>
         <ul className="Project-Grid">
           <Card />

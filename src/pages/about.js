@@ -32,7 +32,7 @@ const About = () => {
         <br />
         <span className="Paragraph Paragraph-1">
           Hi there! I'm Brandon, a product manager from New York City, currently
-          studying my for my undergraduate degree in Bachelor of Science at{" "}
+          studying for my undergraduate degree in Bachelor of Science at{" "}
           <a className="College" href="https://www.babson.edu/" target="blank">
             Babson College
           </a>
@@ -51,8 +51,8 @@ const About = () => {
             first video game
           </a>
           . The process of creating something of your own and sharing it with
-          the world fascinated me. Coupled with meticulous process of analyzing
-          a user's experience and making improvements, I loved it.
+          the world fascinated me. Coupled with the meticulous process of
+          analyzing a user's experience and making improvements, I loved it.
         </span>
         <br />
         <br />
