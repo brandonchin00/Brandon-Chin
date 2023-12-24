@@ -50,6 +50,9 @@ function CardItem({
 
   const [card, setCard] = useState(false);
 
+  const handleCardUpdate = (newCardValue) => {
+    setCard(newCardValue);
+  };
   return (
     <div className="card-wrapper">
       <div className="card-container" onClick={() => setCard(true)}>
@@ -73,7 +76,7 @@ function CardItem({
         </div>
       </div>
 
-      <Popup trigger={card}>
+      <Popup trigger={card} setCard={handleCardUpdate}>
         <div className="pop-title-container">
           <svg
             onClick={() => setCard(false)}

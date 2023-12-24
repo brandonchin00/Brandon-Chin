@@ -189,7 +189,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  z-index: 3;
+  z-index: 1001;
 }
 
 svg:hover {
@@ -218,10 +218,12 @@ svg:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 999;
 }
 
 .pop-inner {
+  position: absolute;
+  z-index: 1000;
   box-sizing: border-box;
   overflow: hidden;
   margin: 5%;
