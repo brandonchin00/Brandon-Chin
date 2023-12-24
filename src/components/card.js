@@ -53,6 +53,15 @@ function CardItem({
   const handleCardUpdate = (newCardValue) => {
     setCard(newCardValue);
   };
+
+  const nextSlide = () => {
+    setActiveIndex(activeIndex >= 2 ? activeIndex : activeIndex + 1);
+  };
+
+  const prevSlide = () => {
+    setActiveIndex(activeIndex !== 0 ? activeIndex - 1 : activeIndex);
+  };
+
   return (
     <div className="card-wrapper">
       <div className="card-container" onClick={() => setCard(true)}>
@@ -132,6 +141,36 @@ function CardItem({
             ))}
         </div>
         <div className="image-button-container">
+          <button className="arrow left" onClick={prevSlide}>
+            <svg
+              className="arrow-icon"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+
+              <g id="SVGRepo_iconCarrier">
+                {" "}
+                <path
+                  className="arrow-icon-core"
+                  d="M15 5L9 12L15 19"
+                  stroke="#adb5bd"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />{" "}
+              </g>
+            </svg>
+          </button>
           <button
             className={`image-button ${activeIndex === 0 ? "active" : ""}`}
             onClick={() => goToSlide(0)}
@@ -144,6 +183,36 @@ function CardItem({
             className={`image-button ${activeIndex === 2 ? "active" : ""}`}
             onClick={() => goToSlide(2)}
           ></button>
+          <button className="arrow right" onClick={nextSlide}>
+            <svg
+              className="arrow-icon"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+
+              <g id="SVGRepo_iconCarrier">
+                {" "}
+                <path
+                  className="arrow-icon-core"
+                  d="M9 5L15 12L9 19"
+                  stroke="#adb5bd"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />{" "}
+              </g>
+            </svg>
+          </button>
         </div>
         <div className="pop-content-container">
           <h4 className="pop-title">{title_in}</h4>

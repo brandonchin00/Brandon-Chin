@@ -121,6 +121,25 @@
   object-fit: contain;
 }
 
+.arrow {
+  padding: 10px;
+  background: transparent;
+  border: none;
+}
+
+.arrow-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.arrow-icon:hover {
+  .arrow-icon-core {
+    stroke: var(--quaternary--);
+  }
+
+  cursor: pointer;
+}
+
 .image-button-container {
   box-sizing: inherit;
   display: flex;
@@ -132,12 +151,14 @@
   background-color: var(--quinary--);
   border-radius: 10px;
   border: none;
-  padding: 8px;
-  margin: 10px;
+  padding: 5px;
+  margin: auto 8px;
+  transition: 0.3s ease;
 }
 
 .image-button.active {
   background-color: var(--quaternary--);
+  padding: 8px;
 }
 
 .image-button:hover {
@@ -235,7 +256,7 @@ svg:hover {
   overflow-y: auto;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1015px) {
   .pop-inner {
     width: 60vw;
     height: 75vh;
