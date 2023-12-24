@@ -11,7 +11,7 @@ const animated = {
 const content = [
   {
     title: "Product Management Intern at Publicis Sapient",
-    text: "I co-led a team of five Software Engineer Interns in building an expense management app for iOS/Android using agile methodology. Through 97 JIRA tickets across four sprints, we successfully developed and launched an expense management app. Through 18 usability interviews, my team and I refined the UI/UX of the application. Additionally, I built a mock AI Chatbot to understand its capabilities and implementation process.",
+    text: "I co-led a team of five Software Engineer Interns in building an expense management app for iOS/Android using agile methodology. Across four sprints, we successfully developed and launched the app, managing 97 JIRA tickets. To refine the application's UI/UX, my team and I conducted 18 usability interviews. Furthermore, I personally constructed a mock AI Chatbot to explore its capabilities and the implementation process.",
     date: "2023",
     month: "June – August",
     company: "Publicis Sapient",
@@ -20,7 +20,7 @@ const content = [
   },
   {
     title: "Product Management Intern at Mobilize.IT",
-    text: "I collaborated with the Senior VP, analyzing 15 features to optimize our product, resulting in 3 UX fixes. I interviewed 50+ users, crafting 5 blog posts on product-market fit for the US market. Additionally, I conducted a competitor analysis, identifying 5 key feature recommendations for product differentiation.",
+    text: "I collaborated with the Senior VP, analyzing 15 features to optimize our product, which led to implementing 3 UX fixes. I interviewed over 50 users and crafted 5 blog posts focusing on product-market fit for the US market. Additionally, I conducted a competitor analysis, through which I identified 5 key feature recommendations for product differentiation.",
     date: "2022",
     month: "February – April",
     image: "./images/mob.png",
@@ -28,7 +28,7 @@ const content = [
   },
   {
     title: "Business Development Intern at Echo3d",
-    text: "I constructed a competitor analysis and proposed 6 features to bolster our market edge. Alongside an engineering team, I tackled 6 UI issues by thoroughly reviewing the user journey map for their SaaS product. Additionally, I utilized SeamlessAI to source clients within the retail clothing sector, providing valuable contacts to the VP of Sales for potential sales leads.",
+    text: "I conducted a competitor analysis and suggested 6 features to strengthen our market edge. Collaborating with an engineering team, I addressed 6 UI issues by thoroughly reviewing the user journey map for their SaaS product. Moreover, I utilized SeamlessAI to source clients within the retail clothing sector, offering valuable contacts to the VP of Sales for potential sales leads.",
     date: "2022",
     month: "January – April",
     image: "./images/echo.png",
@@ -36,7 +36,7 @@ const content = [
   },
   {
     title: "Financial Analyst Intern at Digital Factory",
-    text: "I developed an Excel calculator to assess OPEX for a $3M nationwide project with Walgreens. Additionally, I constructed and refined a $5M OPEX financial model for the Sales VP, facilitating accurate calculations of development costs. Further, I completed due diligence, compiling Excel data for investor outreach, and applied for over 15 funding opportunities. I also led presentations on financial models for the EVP of Client Services and provided daily reports to the VP of Finance. Moreover, I created onboarding materials for 5 new interns and led a presentation to elucidate the new internal financial model.",
+    text: "I developed an Excel calculator to assess OPEX for a $3M nationwide project with Walgreens. Additionally, I constructed and refined a $5M OPEX financial model for the Sales VP, enabling accurate calculations of development costs. Furthermore, I completed due diligence by compiling Excel data for investor outreach and applied for over 15 funding opportunities. I also conducted presentations on financial models for the EVP of Client Services and provided daily reports to the VP of Finance. Moreover, I created onboarding materials for 5 new interns and conducted a presentation to explain the new internal financial model.",
     date: "2021",
     month: "June – August",
     image: "./images/digital.png",
@@ -44,7 +44,7 @@ const content = [
   },
   {
     title: "Marketing Intern at The Human Element",
-    text: "I created a concept venue and presented it directly to the company’s client(Chef Narisawa) within 5 days. I facilitated daily Spanish-to-English communication between partner companies. On the website, I revised the UX via graphic changes, design tweaks on WordPress, and content adjustments. I redesigned 2 graphs for better data organization and proposed a royalty deal to create a new revenue stream for the CEO with a publisher.",
+    text: "I conceptualized a venue and presented it directly to the company’s client (Chef Narisawa) within 5 days. Additionally, I facilitated daily Spanish-to-English communication between partner companies. On the website, I enhanced the UX through graphic changes, design tweaks on WordPress, and content adjustments. I also redesigned 2 graphs to improve data organization and proposed a royalty deal to create a new revenue stream for the CEO with a publisher.",
     date: "2019",
     month: "October – December",
     image: "./images/human.png",
@@ -52,7 +52,7 @@ const content = [
   },
   {
     title: "Audit Intern at Changing the Present",
-    text: "I revised excel sheets equations and cross checked the accounting excel sheet with a mentor",
+    text: "I revised the equations in Excel sheets and cross-checked the accounting spreadsheet with a mentor.",
     date: "2016",
     month: "June – July",
     image: "./images/change.png",
@@ -64,7 +64,7 @@ const projects = [
   {
     image: "./card-images/fyt.png",
     title: "Internal Product Database",
-    text: "An internal tool for company branch managers to actively manage and track their existing products.",
+    text: "An internal tool for company branch managers to actively manage and track their current products.",
     tags: "Node.js:React.js:Figma:Product Management",
     images: {
       image_1: "./card-images/fyt.png",
@@ -72,11 +72,11 @@ const projects = [
       image_3: "./card-images/fyt-2.png",
     },
     title_in: "Travel Agency Internal Product Database",
-    task: "Branch managers have raised an issue with the head office: New employees feel less motivated to sell current products due to the complexity of accessing inventory and collecting sales information.",
+    task: "Branch managers have raised an issue: The expansion of our product line has resulted in substantial complexities that are proving challenging to comprehend and manage for interal teams.",
     process:
-      "I began by listening and pinpointing the company's issues during a meeting, then delved deeper by conducting 5 interviews with branch managers to gain a comprehensive grasp of the problem. Following brainstorming sessions, I suggested a website solution aimed at streamlining information flow. Once the proposal was approved, I gathered requirements and swiftly drafted a preliminary design to test user navigation within a day. Consulting with managers using the wireframe, I refined the user experience through collaborative adjustments. After some adjustments, I began building the website utilizing React and Node.js. I utilized hooks like useState, useEffect, useRef, and several libraries to ensure the website's functionality. I then conducted a usability test with 2 branch managers to ensure the website's functionality and user experience.",
+      "I initiated by listening and identifying the company's concerns in a meeting, then conducted 5 interviews with branch managers to deeply understand the issue. After brainstorming sessions, I proposed a website solution to streamline information flow. Upon approval, I swiftly gathered requirements and drafted a preliminary design to test user navigation within a day. Collaborating with managers using the wireframe, I refined the user experience through iterative adjustments. Once refined, I commenced building the website using React and Node.js, implementing hooks such as useState, useEffect, useRef, and various libraries for functionality. Finally, I conducted a usability test with 2 branch managers to ensure optimal website performance and user experience.",
     solution:
-      "A web page designed to streamline information presentation for agents, featuring an intuitive user interface and captivating graphics to efficiently communicate information. This aims to rapidly replace the conventional use of Excel sheets.",
+      "A web page designed to streamline information presentation for agents, showcasing an intuitive user interface and engaging graphics aimed at efficiently communicating information. Its goal is to swiftly replace the conventional use of Excel sheets.",
   },
   {
     image: "./card-images/fyt-app.png",
