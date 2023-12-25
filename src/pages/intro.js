@@ -54,6 +54,46 @@ const Intro = () => {
           <button className="button button-2 effect">Learn More</button>
         </Link>
       </div>
+      <div className="scroll-container">
+        <Link to="introSection" smooth={true} duration={500}>
+          <svg
+            className="scroll-icon"
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g id="SVGRepo_iconCarrier">
+              {" "}
+              <path
+                className="scroll-icon-core"
+                d="M19 11L12 17L5 11"
+                stroke="#50c2ff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />{" "}
+              <path
+                className="scroll-icon-core"
+                d="M19 7L12 13L5 7"
+                stroke="#50c2ff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />{" "}
+            </g>
+          </svg>
+        </Link>
+      </div>
     </div>
   );
 };
