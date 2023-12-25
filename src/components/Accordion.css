@@ -45,6 +45,7 @@ body {
 }
 
 .content-box {
+  font-family: var(--tertiary-font);
   padding-bottom: 16px;
   line-height: 1.6;
 }
