@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const Intro = () => {
   const handleDownload = () => {
-    const fileName = `Brandon_Chin.pdf`;
+    const fileName = `Brandon_Chin_.pdf`;
     console.log(fileName);
     const filePath = `./file/${fileName}`;
     console.log(filePath);

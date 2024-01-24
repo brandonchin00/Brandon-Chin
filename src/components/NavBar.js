@@ -27,7 +27,7 @@ export function Navbar() {
   }, []);
 
   const handleDownload = () => {
-    const fileName = `Brandon_Chin.pdf`;
+    const fileName = `Brandon_Chin_.pdf`;
     console.log(fileName);
     const filePath = `./file/${fileName}`;
     console.log(filePath);
