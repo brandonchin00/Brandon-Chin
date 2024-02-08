@@ -41,7 +41,7 @@ const Intro = () => {
           I lead software teams using Scrum to build products
         </li>
         <li className="text-T">
-          I'm a product manager with a focus in user experience and Data
+          I'm a product manager with a focus in user experience and data
           analytics. I extract requirements from datasets to swiftly transform
           designs into user testing.
         </li>
