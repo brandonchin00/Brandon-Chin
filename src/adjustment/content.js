@@ -62,6 +62,40 @@ const content = [
 
 const projects = [
   {
+    image: "./card-images/boggle-4.png",
+    title: "Producthon: TechEd Industry",
+    text: "A 36-hour hackathon to create a product for the education industry",
+    tags: "Product Management:Hackathon",
+    images: {
+      image_1: "./card-images/boggle-1.png",
+      image_2: "./card-images/boggle-2.png",
+      image_3: "./card-images/boggle-3.png",
+    },
+    title_in: "Boggle, Bereal + Education Games",
+    task: "Develop creative solutions to improve access to educational resources, facilitate classroom learning, and enhance engaging methods for individuals to acquire knowledge as part of a hackathon task.",
+    process:
+      "We began by identifying a significant problem in our lives: the lack of intellectual stimulation among individuals aged 15 to 25. Due to social media apps like TikTok, we found statistics showing a decline in IQ and focus among young adults. To better understand the issue, we conducted interviews with 28 members of our target audience through a Google Form. With a clear understanding of the problem, we brainstormed various app solutions to address it. We decided to create an app where users can participate in daily intellectually stimulating games. By defining restrictions on game availability and play duration, we aimed to facilitate a sense of competition among friends. Once we defined the product vision, we conducted further research and defined the Total Addressable Market (TAM), Serviceable Addressable Market (SAM), and calculated the Compound Annual Growth Rate (CAGR). Once it became clear that there was a sizable market for the product, we began collaborating on the final features and developing Figma designs to visualize our ideas. This comprehensive process culminated in the creation of a final presentation showcasing our innovative solution.",
+    solution:
+      "Introducing Boggle, a mobile app designed to keep you intellectually stimulated every day. At a randomly chosen time during the day, you'll have the chance to play a game within a 15-minute window. If you miss this opportunity, you'll have to wait until the next day to play. Each game is generated and randomized, ensuring that no two games are alike. After playing, your results will be shared with friends on a leaderboard, allowing for friendly competition to see who can achieve the highest score. Even if you didn't participate in the latest game, you can still view game records and past user activities until the next game begins.",
+  },
+  {
+    image: "./card-images/startup.png",
+    title: "Student Startup: Sticker Pack",
+    text: "A custom sticker company that utilized student designs to create stickers",
+    tags: "Entrepreneurship:Marketing:E-commerce",
+    images: {
+      image_1: "./card-images/startup-1.png",
+      image_2: "./card-images/startup-2.png",
+      image_3: "./card-images/startup-3.png",
+    },
+    title_in: "Sticker Pack Startup",
+    task: "Identify market opportunities and create a product to address the market needs.",
+    process:
+      "As we explored opportunities within the college market, my team and I engaged in brainstorming sessions to conceive potential product ideas. Recognizing students' strong inclination to personalize their school-provided laptops, we conducted a survey revealing that 80% of students were interested in purchasing customizable stickers. Our value proposition centered around transforming any student's sketches into stickers, offering both convenience and affordability. Following our success in the rocket pitch, we secured funding for our venture and began sourcing manufacturers. I then proceeded to create an e-commerce website using Shopify, while the team began crafting designs. Subsequently, we initiated a marketing campaign aimed at promoting the website and our unique stickers.",
+    solution:
+      "We began generating revenue on the launch day and reached the break-even point within two weeks.",
+  },
+  {
     image: "./card-images/fyt.png",
     title: "Internal Product Database",
     text: "An internal tool for company branch managers to actively manage and track their current products.",
@@ -212,23 +246,6 @@ const projects = [
       "To identify opportunities for improvement, we utilized NUVI, a social media analytics tool, to analyze their current marketing presence. Subsequently, we identified potential growth paths, focusing on the metaverse and leveraging digital influencers as key marketing channels. This led us to develop a marketing strategy centered around utilizing the metaverse and digital influencers to amplify brand visibility, ultimately driving increased customer acquisition. To measure the campaign's success, we outlined key metrics, including Audience Growth Rate (%), Virality Coefficient (calculated as the Number of Shares divided by the Number of Impressions), and Click-Through Rate (CTR).",
     solution:
       "We compiled a comprehensive breakdown of our marketing campaign into a PowerPoint presentation, which we then delivered to the Vice President of Marketing at New Balance. Additionally, we meticulously crafted a 5-page paper outlining the intricacies of our strategy.",
-  },
-  {
-    image: "./card-images/startup.png",
-    title: "Student Startup: Sticker Pack",
-    text: "A custom sticker company that utilized student designs to create stickers",
-    tags: "Entrepreneurship:Marketing:E-commerce",
-    images: {
-      image_1: "./card-images/startup-1.png",
-      image_2: "./card-images/startup-2.png",
-      image_3: "./card-images/startup-3.png",
-    },
-    title_in: "Sticker Pack Startup",
-    task: "Identify market opportunities and create a product to address the market needs.",
-    process:
-      "As we explored opportunities within the college market, my team and I engaged in brainstorming sessions to conceive potential product ideas. Recognizing students' strong inclination to personalize their school-provided laptops, we conducted a survey revealing that 80% of students were interested in purchasing customizable stickers. Our value proposition centered around transforming any student's sketches into stickers, offering both convenience and affordability. Following our success in the rocket pitch, we secured funding for our venture and began sourcing manufacturers. I then proceeded to create an e-commerce website using Shopify, while the team began crafting designs. Subsequently, we initiated a marketing campaign aimed at promoting the website and our unique stickers.",
-    solution:
-      "We began generating revenue on the launch day and reached the break-even point within two weeks.",
   },
 ];
 
