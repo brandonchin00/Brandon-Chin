@@ -14,7 +14,6 @@ export default function App() {
         <Navbar />
         <Sidebar />
       </header>
-
       <main>
         <Intro />
         <About />
