@@ -2,13 +2,31 @@ const logo = "";
 
 const animated = {
     first: "PRODUCT MANAGER",
-    second: "FRONT-END DEVELOPER",
-    third: "BUSINESS STUDENT",
-    fourth: "DATA ANALYST",
+    second: "FULL-STACK DEVELOPER",
+    third: "DATA SCIENCE ANALYST",
+    fourth: "UI/UX DESIGNER",
     fifth: "RUNNER 👟",
 };
 
 const content = [
+    {
+        title: "Data Science Analyst at MathCo",
+        text: "Currently undergoing training in data engineering with SQL and Python, with a focus on applying data science consulting principles.",
+        date: "2024",
+        month: "June – Present",
+        company: "MathCo",
+        image: "./images/mathco.png",
+        image_2: "./images/mathco-1.png",
+    },
+    {
+        title: "Product Manager at Fei Yang Travel",
+        text: "I developed a comprehensive full-stack e-commerce platform using React and Next.js, incorporating an inventory management dashboard to resolve legacy issues and enhance cross-company communication. This made it easier for employees to understand product highlights and improve their sales process. Additionally, I created a detailed 1-year roadmap, designed a Figma prototype, and set clear delivery timelines for each phase of the e-commerce site. I conducted a competitor analysis in the U.S. market, which informed a 10-page PRD focused on business and product improvements. Furthermore, I launched and designed an omnichannel marketing campaign aimed at increasing brand awareness among Chinese travelers seeking a travel agency.",
+        date: "2023",
+        month: "September – Present",
+        company: "Fei Yang Travel",
+        image: "./images/fyt.png",
+        image_2: "./images/fyt-1.png",
+    },
     {
         title: "Product Management Intern at Publicis Sapient",
         text: "I co-led a team of five Software Engineer Interns in building an expense management app for iOS/Android using agile methodology. Across four sprints, we successfully developed and launched the app, managing 97 JIRA tickets. To refine the application's UI/UX, my team and I conducted 18 usability interviews. Furthermore, I developed a mock AI Chatbot to explore its capabilities and the implementation process.",
@@ -96,21 +114,21 @@ const projects = [
             "Introducing Boggle, a mobile app designed to keep you intellectually stimulated every day. At a randomly chosen time during the day, you'll have the chance to play a game within a 15-minute window. If you miss this opportunity, you'll have to wait until the next day to play. Each game is generated and randomized, ensuring that no two games are alike. After playing, your results will be shared with friends on a leaderboard, allowing for friendly competition to see who can achieve the highest score. Even if you didn't participate in the latest game, you can still view game records and past user activities until the next game begins.",
     },
     {
-        image: "./card-images/startup.png",
-        title: "Student Startup",
-        text: "A custom sticker company that utilized student designs to create stickers",
-        tags: "Entrepreneurship:Marketing:E-commerce",
+        image: "./card-images/roggle-1.png",
+        title: "Online Note Taking Website",
+        text: "A final project to demostrate full-stack development skills.",
+        tags: "Full-stack:React.js:Node.js",
         images: {
-            image_1: "./card-images/startup-1.png",
-            image_2: "./card-images/startup-2.png",
-            image_3: "./card-images/startup-3.png",
+            image_1: "./card-images/roggle-1.png",
+            image_2: "./card-images/roggle-2.png",
+            image_3: "./card-images/roggle-3.png",
         },
-        title_in: "Sticker Pack Startup",
-        task: "Identify market opportunities and create a product to address the market needs.",
+        title_in: "Roggle, Online Note Taking",
+        task: "Tasked with developing a full-stack application to demonstrate my skills in React.js and Node.js.",
         process:
-            "As we explored opportunities within the college market, my team and I engaged in brainstorming sessions to conceive potential product ideas. Recognizing students' strong inclination to personalize their school-provided laptops, we conducted a survey revealing that 80% of students were interested in purchasing customizable stickers. Our value proposition centered around transforming any student's sketches into stickers, offering both convenience and affordability. Following our success in the rocket pitch, we secured funding for our venture and began sourcing manufacturers. I then proceeded to create an e-commerce website using Shopify, while the team began crafting designs. Subsequently, we initiated a marketing campaign aimed at promoting the website and our unique stickers.",
+            "I began by identifying the key features necessary for a note-taking application. I then deconstructed each feature into components, establishing a modular structure. To ensure proper rendering of items, I utilized the useState hook. And throughout the development phase, I faced several obstacles that necessitated restructuring specific elements. With assistance from my online course, I successfully learned and built the application.",
         solution:
-            "We began generating revenue on the launch day and reached the break-even point within two weeks.",
+            "A web-based platform enabling users to take notes and save them directly online. This allowed users to access their notes anywhere from any computer",
     },
     {
         image: "./card-images/fyt.png",
@@ -263,6 +281,23 @@ const projects = [
             "To identify opportunities for improvement, we utilized NUVI, a social media analytics tool, to analyze their current marketing presence. Subsequently, we identified potential growth paths, focusing on the metaverse and leveraging digital influencers as key marketing channels. This led us to develop a marketing strategy centered around utilizing the metaverse and digital influencers to amplify brand visibility, ultimately driving increased customer acquisition. To measure the campaign's success, we outlined key metrics, including Audience Growth Rate (%), Virality Coefficient (calculated as the Number of Shares divided by the Number of Impressions), and Click-Through Rate (CTR).",
         solution:
             "We compiled a comprehensive breakdown of our marketing campaign into a PowerPoint presentation, which we then delivered to the Vice President of Marketing at New Balance. Additionally, we meticulously crafted a 5-page paper outlining the intricacies of our strategy.",
+    },
+    {
+        image: "./card-images/startup.png",
+        title: "Student Startup",
+        text: "A custom sticker company that utilized student designs to create stickers",
+        tags: "Entrepreneurship:Marketing:E-commerce",
+        images: {
+            image_1: "./card-images/startup-1.png",
+            image_2: "./card-images/startup-2.png",
+            image_3: "./card-images/startup-3.png",
+        },
+        title_in: "Sticker Pack Startup",
+        task: "Identify market opportunities and create a product to address the market needs.",
+        process:
+            "As we explored opportunities within the college market, my team and I engaged in brainstorming sessions to conceive potential product ideas. Recognizing students' strong inclination to personalize their school-provided laptops, we conducted a survey revealing that 80% of students were interested in purchasing customizable stickers. Our value proposition centered around transforming any student's sketches into stickers, offering both convenience and affordability. Following our success in the rocket pitch, we secured funding for our venture and began sourcing manufacturers. I then proceeded to create an e-commerce website using Shopify, while the team began crafting designs. Subsequently, we initiated a marketing campaign aimed at promoting the website and our unique stickers.",
+        solution:
+            "We began generating revenue on the launch day and reached the break-even point within two weeks.",
     },
 ];
 
