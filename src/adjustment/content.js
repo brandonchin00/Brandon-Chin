@@ -63,9 +63,9 @@ const content = [
 const projects = [
     {
         image: "./card-images/orion-1.png",
-        title: "Project: Orion",
+        title: "E-commerce Website for Travel Agency",
         text: "From design to code, I'm building an e-commerce product for the travel industry",
-        tags: "Product Management:Figma:E-commerce",
+        tags: "Product Management:Figma:E-commerce:Full-stack",
         images: {
             image_1: "./card-images/orion-1.png",
             image_2: "./card-images/orion-2.png",
@@ -97,7 +97,7 @@ const projects = [
     },
     {
         image: "./card-images/startup.png",
-        title: "Student Startup: Sticker Pack",
+        title: "Student Startup",
         text: "A custom sticker company that utilized student designs to create stickers",
         tags: "Entrepreneurship:Marketing:E-commerce",
         images: {
@@ -114,9 +114,9 @@ const projects = [
     },
     {
         image: "./card-images/fyt.png",
-        title: "Internal Product Database",
+        title: "Internal Inventory Management Dashboard",
         text: "An internal tool for company branch managers to actively manage and track their current products.",
-        tags: "Node.js:React.js:Figma:Product Management",
+        tags: "Node.js:React.js:Figma:Product Management:Full-stack",
         images: {
             image_1: "./card-images/fyt.png",
             image_2: "./card-images/fyt-1.png",
@@ -131,7 +131,7 @@ const projects = [
     },
     {
         image: "./card-images/fyt-app.png",
-        title: "App Design and Requirements",
+        title: "Travel Agency App",
         text: "An app that centralizes customer data and offer end-to-end concierge service",
         tags: "Figma:Product Management",
         images: {
@@ -148,7 +148,7 @@ const projects = [
     },
     {
         image: "./card-images/case.png",
-        title: "Amazon Case Study",
+        title: "Product Management Bootcamp",
         text: "In my personal case study, I examine a hypothetical scenario in which Amazon executives decide to enter the car retail industry.",
         tags: "Product Management",
         images: {
@@ -164,7 +164,7 @@ const projects = [
     },
     {
         image: "./card-images/ml.png",
-        title: "ML Algorithm for Loan Assessment",
+        title: "Final Project: Machine Learning for Bank",
         text: "To evaluate the probability of an individual's loan default based on different factors.",
         tags: "Machine Learning:R",
         images: {
@@ -181,7 +181,7 @@ const projects = [
     },
     {
         image: "./card-images/popcorn.png",
-        title: "Rate and Watchlist",
+        title: "Movie Review Website",
         text: "A web-based platform enabling users to both rate and add movies to their personal watchlists.",
         tags: "Passion Project:React.js:Node.js",
         images: {
@@ -198,7 +198,7 @@ const projects = [
     },
     {
         image: "./card-images/pack.png",
-        title: "Packing List",
+        title: "Travel Packing Checklist Website",
         text: "A web-based application enabling users to generate and oversee a packing checklist for their travels.",
         tags: "Passion Project:React.js:Node.js",
         images: {
@@ -215,7 +215,7 @@ const projects = [
     },
     {
         image: "./card-images/expense.png",
-        title: "Simple Expense Tracker",
+        title: "Simple Expense Tracker Website",
         text: "A web-based tool enabling users to monitor their expenditures and outstanding debts.",
         tags: "Passion Project:React.js:Node.js",
         images: {
@@ -232,7 +232,7 @@ const projects = [
     },
     {
         image: "./card-images/polestar.png",
-        title: "Challenges in Polestar's US EV Growth",
+        title: "Consulting Presentation: Challenges in Polestar's US EV Growth",
         text: "A consultancy assignment with Polestar, to identify growth opportunities in the US market",
         tags: "Consulting:Market Research",
         images: {
