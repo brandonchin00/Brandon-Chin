@@ -80,13 +80,13 @@ const content = [
 
 const projects = [
     {
-        image: "./card-images/orion-1.png",
+        image: "./card-images/FYT0.png",
         title: "E-commerce Website for Travel Agency",
         text: "From design to code, I'm building an e-commerce product for the travel industry",
         tags: "Product Management:Figma:E-commerce:Full-stack",
         images: {
-            image_1: "./card-images/orion-1.png",
-            image_2: "./card-images/orion-2.png",
+            image_1: "./card-images/FYT0.png",
+            image_2: "./card-images/FYT01.png",
             image_3: "./card-images/orion-3.png",
         },
         title_in: "Orion: Travel Agency E-commerce",
