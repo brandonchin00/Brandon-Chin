@@ -3,15 +3,15 @@ const logo = "";
 const animated = {
     first: "PRODUCT MANAGER",
     second: "FULL-STACK DEVELOPER",
-    third: "DATA SCIENCE ANALYST",
+    third: "DATA ENGINEER",
     fourth: "UI/UX DESIGNER",
     fifth: "RUNNER 👟",
 };
 
 const content = [
     {
-        title: "Data Science Analyst at MathCo",
-        text: "Currently undergoing training in data engineering with SQL and Python, with a focus on applying data science consulting principles.",
+        title: "Data Engineer at MathCo",
+        text: "Currently optimizing data pipelines, ensuring data quality, addressing ad-hoc client inquiries, and maintaining proactive stakeholder communication",
         date: "2024",
         month: "June – Present",
         company: "MathCo",
