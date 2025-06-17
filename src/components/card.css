@@ -1,284 +1,326 @@
 .card-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0.65%;
-  max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.65%;
+    max-width: 1000px;
 }
 
 .card-container {
-  max-width: 300px;
-  min-width: 250px;
-  width: auto;
-  box-sizing: border-box;
-  background: var(--secondary--);
-  display: flex;
-  height: auto;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: 0.25s ease;
+    max-width: 300px;
+    min-width: 250px;
+    width: auto;
+    box-sizing: border-box;
+    background: var(--secondary--);
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.25s ease;
 }
 
 .card-container:hover {
-  background-color: #454b50;
-  transition: 0.5s;
-  .imageCard-container {
+    background-color: #454b50;
     transition: 0.5s;
-    transform: scale(1.1);
-  }
-  cursor: pointer;
+    .imageCard-container {
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    cursor: pointer;
 }
 
 .imageCard-container {
-  box-sizing: inherit;
-  display: block;
-  object-fit: cover;
-  transition: 0.3s ease;
+    box-sizing: inherit;
+    display: block;
+    object-fit: cover;
+    transition: 0.3s ease;
 }
 
 .imageCard-container img {
-  max-width: 300px;
-  min-width: 250px;
-  width: auto;
-  height: auto;
+    max-width: 300px;
+    min-width: 250px;
+    width: auto;
+    height: auto;
 }
 
 .text-container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-title-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .card-title {
-  display: flex;
-  font-size: clamp(10px, 8vw, 20px);
-  font-family: var(--main-font);
-  font-weight: 400;
-  padding: 3% 4%;
-  transition: 0.3s ease;
-  color: white;
+    display: flex;
+    font-size: clamp(10px, 8vw, 20px);
+    font-family: var(--main-font);
+    font-weight: 400;
+    padding: 3% 4%;
+    transition: 0.3s ease;
+    color: white;
 }
 
 .card-text {
-  padding: 2% 4%;
-  font-size: clamp(10px, 8vw, 15px);
-  font-family: var(--secondary-font);
-  color: var(--quinary--);
-  transition: 0.3s ease;
+    padding: 2% 4%;
+    font-size: clamp(10px, 8vw, 15px);
+    font-family: var(--secondary-font);
+    color: var(--quinary--);
+    transition: 0.3s ease;
 }
 
 .tag-container {
-  padding: 4% 4%;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  flex-wrap: wrap;
+    padding: 4% 4%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
 .tag {
-  font-size: 0.8em;
-  font-family: var(--secondary-font);
-  font-weight: bolder;
-  background-color: var(--quaternary--);
-  color: #ffffff;
-  padding: 6px 8px;
-  border-radius: 15px;
+    font-size: 0.8em;
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    background-color: var(--quaternary--);
+    color: black;
+    padding: 6px 8px;
+    border-radius: 15px;
 }
 .learn-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .learn-row-words {
-  color: var(--quaternary--);
-  padding: 4%;
+    color: var(--quaternary--);
+    padding: 4%;
 }
 
 .learn-more-icon {
-  width: 10%;
-  height: auto;
-  border: 2px solid blue;
+    width: 10%;
+    height: auto;
+    border: 2px solid blue;
 }
 /* ------------------------------------------------------------------------- */
 
 .pop-title-container {
-  box-sizing: inherit;
-  display: flex;
-  flex-direction: row-reverse;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .pop-image {
-  box-sizing: inherit;
-  object-fit: contain;
+    box-sizing: inherit;
+    object-fit: contain;
 }
 
 .arrow {
-  padding: 10px;
-  background: transparent;
-  border: none;
+    padding: 10px;
+    background: transparent;
+    border: none;
 }
 
 .arrow-icon {
-  width: 35px;
-  height: 35px;
+    width: 35px;
+    height: 35px;
 }
 
 .arrow-icon:hover {
-  .arrow-icon-core {
-    stroke: var(--quaternary--);
-  }
+    .arrow-icon-core {
+        stroke: var(--quaternary--);
+    }
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .image-button-container {
-  box-sizing: inherit;
-  display: flex;
-  justify-content: center;
+    box-sizing: inherit;
+    display: flex;
+    justify-content: center;
 }
 
 .image-button {
-  box-sizing: inherit;
-  background-color: var(--quinary--);
-  border-radius: 10px;
-  border: none;
-  padding: 5px;
-  margin: auto 8px;
-  transition: 0.3s ease;
+    box-sizing: inherit;
+    background-color: var(--quinary--);
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: auto 8px;
+    transition: 0.3s ease;
 }
 
 .image-button.active {
-  background-color: var(--quaternary--);
-  padding: 8px;
+    background-color: var(--quaternary--);
+    padding: 8px;
 }
 
 .image-button:hover {
-  background-color: var(--quaternary--);
-  cursor: pointer;
+    background-color: var(--quaternary--);
+    cursor: pointer;
 }
 
 .pop-title {
-  box-sizing: inherit;
-  display: flex;
-  flex-direction: row;
-  font-size: clamp(25px, 5vw, 35px);
-  font-family: var(--main-font);
-  padding: 3% 3%;
-  color: var(--quaternary--);
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: row;
+    font-size: clamp(25px, 5vw, 45px);
+    font-family: var(--main-font);
+    padding: 3% 3%;
+    color: var(--quaternary--);
 }
 
 .popup-subtitle {
-  display: flex;
-  align-items: center;
-  box-sizing: inherit;
-  font-size: clamp(16px, 6vw, 25px);
-  font-family: var(--secondary-font);
-  color: var(--septenary--);
-  padding: 0% 1.5%;
+    display: flex;
+    align-items: center;
+    box-sizing: inherit;
+    font-size: clamp(16px, 6vw, 25px);
+    font-family: var(--secondary-font);
+    color: var(--septenary--);
+    padding: 0% 1.5%;
 }
 
 .pop-content {
-  box-sizing: inherit;
-  font-size: clamp(15px, 3vw, 18px);
-  font-family: var(--tertiary-font);
-  padding: 1.5% 3%;
-  border-bottom: none;
-  font-weight: 500;
+    box-sizing: inherit;
+    font-size: clamp(15px, 3vw, 18px);
+    font-family: var(--tertiary-font);
+    padding: 1.5% 3%;
+    border-bottom: none;
+    font-weight: 500;
 }
 
 .pop-content-container {
-  box-sizing: inherit;
-  display: flex;
-  flex-direction: column;
-  padding: 0% 3% 5% 3%;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 20% 5% 20%;
 }
 
 .close-btn {
-  box-sizing: inherit;
-  width: 35px;
-  height: 35px;
-  margin: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 1001;
+    box-sizing: inherit;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
 }
 
 svg:hover {
-  .close-btn-1 {
-    stroke: var(--quaternary--);
-    fill: var(--quaternary--);
-  }
+    .close-btn-1 {
+        stroke: var(--quaternary--);
+        fill: var(--quaternary--);
+    }
 }
 
 .card-icon {
-  box-sizing: inherit;
-  width: 35px;
-  height: 35px;
-  margin: 10px;
-  background: none;
-  border: none;
+    box-sizing: inherit;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    background: none;
+    border: none;
 }
 
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
 }
 
 .pop-inner {
-  position: absolute;
-  z-index: 1000;
-  box-sizing: border-box;
-  overflow: hidden;
-  margin: 5%;
-  width: 50vw;
-  max-height: 70vh;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow-y: auto;
+    position: absolute;
+    z-index: 1000;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 5%;
+    width: 90vw;
+    max-height: 90vh;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
 }
 
 @media (max-width: 1015px) {
-  .pop-inner {
-    width: 60vw;
-    height: 75vh;
-  }
+    .pop-inner {
+        width: 60vw;
+        height: 75vh;
+    }
 }
 
 @media (max-width: 768px) {
-  .card-container {
-    margin-top: 20px;
-  }
-  .pop-inner {
-    width: 85vw;
-  }
+    .card-container {
+        margin-top: 20px;
+    }
+    .pop-inner {
+        width: 85vw;
+    }
 }
 
 @media (max-width: 375px) {
-  .pop-inner {
-    width: 95vw;
-  }
+    .pop-inner {
+        width: 95vw;
+    }
 
-  .pop-content,
-  .popup-subtitle {
-    display: none;
-  }
+    .pop-content,
+    .popup-subtitle {
+        display: none;
+    }
+}
+.Project-Section {
+    margin-bottom: 2.5rem;
+}
+
+.Project-Section > h3 {
+    display: flex;
+    justify-content: left;
+    font-family: var(--main-font);
+    font-size: clamp(24px, 5vw, 32px);
+    font-weight: 500;
+    color: var(--quaternary--);
+    background-color: rgba(255, 255, 255, 0.127);
+    border-left: 5px solid var(--quaternary--);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.url-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 4%;
+    margin-bottom: 1rem;
+}
+
+.url-button {
+    display: inline-block;
+    align-self: center;
+    font-family: var(--secondary-font);
+    font-size: clamp(12px, 2.5vw, 16px);
+    background-color: var(--quaternary--);
+    color: #fff;
+    padding: 0.25rem;
+
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.url-button:hover {
+    background-color: var(--quinary--);
 }

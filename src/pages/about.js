@@ -68,7 +68,26 @@ const About = () => {
                     Now I build products and solve complex problems for
                     businesses.
                     <br />
-                    Here are some of my skills:
+                    <br />
+                    <span className="Paragraph Paragraph-2">
+                        I ideated, designed, built, and deployed{" "}
+                        <a
+                            className="College"
+                            href="https://www.feiyangtravel.com/"
+                            target="blank"
+                        >
+                            an e-commerce website with a inventory management
+                            system for a medium size business{" "}
+                        </a>
+                        and achieved over{" "}
+                        <span className="statistic">
+                            129,000 Page Views, and a 39% bounce rate, and 4%
+                            conversion rate
+                        </span>
+                    </span>
+                    <br />
+                    <br />
+                    Here's a glance at what I can do:
                     <ul className="Skill-List">
                         <li>
                             <svg
@@ -368,7 +387,7 @@ const About = () => {
                                     />{" "}
                                 </g>
                             </svg>
-                            R & R Studio
+                            PowerPoint
                         </li>
                     </ul>
                 </span>

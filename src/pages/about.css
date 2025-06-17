@@ -90,6 +90,13 @@
     z-index: 1;
 }
 
+.statistic {
+    text-decoration: none;
+    color: lightgreen;
+    position: relative;
+    z-index: 1;
+}
+
 .College::before {
     content: "";
     position: absolute;

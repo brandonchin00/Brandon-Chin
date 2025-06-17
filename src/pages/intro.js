@@ -38,12 +38,12 @@ const Intro = () => {
                 </li>
                 <li className="text-P">Brandon Chin</li>
                 <li className="text-S">
-                    I lead software teams using Scrum to build products
+                    A Product Manager who Turns Ideas into Products
                 </li>
                 <li className="text-T">
-                    I'm a product manager with a focus in user experience and
-                    data analytics. I have a background in data analytics, UI/UX
-                    design, and full-stack web development.
+                    I'm a product manager with a background in UX/UI and data
+                    analytics. I currently work as an analyst in the field of
+                    data engineering.
                 </li>
             </ul>
             <div className="button-container">
