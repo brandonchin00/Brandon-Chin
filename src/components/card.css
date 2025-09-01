@@ -312,15 +312,15 @@ svg:hover {
     display: inline-block;
     align-self: center;
     font-family: var(--secondary-font);
+    border: 2px solid #50c2ff;
     font-size: clamp(12px, 2.5vw, 16px);
-    background-color: var(--quaternary--);
+    background-color: transparent;
     color: #fff;
     padding: 0.25rem;
-
     border-radius: 30px;
     text-decoration: none;
 }
 
 .url-button:hover {
-    background-color: var(--quinary--);
+    background-color: v;
 }
