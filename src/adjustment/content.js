@@ -10,7 +10,7 @@ const animated = {
 
 const content = [
     {
-        title: "Analyst at MathCo",
+        title: "Data Engineering Analyst at MathCo",
         text: "Currently optimizing data pipelines, ensuring data quality, addressing ad-hoc client inquiries, and maintaining proactive stakeholder communication",
         date: "2024",
         month: "June – Present",
@@ -19,7 +19,7 @@ const content = [
         image_2: "./images/mathco-1.png",
     },
     {
-        title: "Product Manager at Fei Yang Travel",
+        title: "Technical Product Manager at Fei Yang Travel",
         text: "I developed a comprehensive full-stack e-commerce platform using React and Next.js, incorporating an inventory management dashboard to resolve legacy issues and enhance cross-company communication. This made it easier for employees to understand product highlights and improve their sales process. Additionally, I created a detailed 1-year roadmap, designed a Figma prototype, and set clear delivery timelines for each phase of the e-commerce site. I conducted a competitor analysis in the U.S. market, which informed a 10-page PRD focused on business and product improvements. Furthermore, I launched and designed an omnichannel marketing campaign aimed at increasing brand awareness among Chinese travelers seeking a travel agency.",
         date: "2023",
         month: "September – Present",
