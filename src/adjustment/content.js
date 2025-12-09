@@ -81,6 +81,25 @@ const content = [
 const projects = [
     {
         category: "Full-Stack Web Development",
+        image: "./card-images/erp-1.png",
+        title: "Financial Invoicing System for Travel Agency",
+        text: "From design to code, I built an financial invoicing system to enable online bookings, financial reporting / forecasting, human resource management, and customer loyalty program",
+        tags: "Supabase:API:NextJS:Twillio",
+        images: {
+            image_1: "./card-images/erp-1.png",
+            image_2: "./card-images/erp-2.png",
+            image_3: "./card-images/erp-3.png",
+        },
+        title_in: "Travel Agency Financial Platform",
+        task: "Solve a legacy problem - 'How do we increase customer loyalty?'",
+        process:
+            "I began by tackling the core challenge: how to increase customer loyalty. After analyzing customer reviews, market trends, and the competitive landscape, I concluded that implementing a loyalty program would best encourage repeat purchases. To support this initiative, I evaluated the company’s existing infrastructure and identified the need for a modernized invoice system capable of enabling loyalty features and supporting future scalability. I then designed the new financial system in Figma and built it using Next.js, spending three months iterating on the design while collaborating closely with local store managers and agents to refine requirements and specifications. After a total of five months of development, I finalized a robust application tailored to both operational needs and long-term growth.",
+        solution:
+            "I delivered a comprehensive invoicing system that leveraged the company’s existing UI/UX patterns to ensure a smooth transition for users while introducing a more streamlined billing and customer invoicing flow. This modernization significantly reduced paperwork and eliminated several tedious manual tasks. In addition, I developed an extensive financial reporting system that enables management and accountants to accurately track company expenses, revenue, and profit. To complete the transformation, I built a full human-resources module that supports employee expense reimbursement and time-off management, creating an integrated operational ecosystem that improves efficiency across the organization.",
+        url: "www.fytusa.com",
+    },
+    {
+        category: "Full-Stack Web Development",
         image: "./card-images/FYT-Ecomm.png",
         title: "E-commerce Website for Travel Agency",
         text: "From design to code, I'm building an e-commerce product for the travel industry",
@@ -90,7 +109,7 @@ const projects = [
             image_2: "./card-images/FYT-Ecomm-2.png",
             image_3: "./card-images/FYT-Ecomm-3.png",
         },
-        title_in: "Orion: Travel Agency E-commerce",
+        title_in: "Travel Agency E-commerce",
         task: "Develop a robust e-commerce platform for a local travel agency. The goal is to enhance customer engagement, reimagine the employee booking process, and streamline inventory management.",
         process:
             "The project is still in development. Having completed the design phase, I am now moving on to the development phase and will provide updates as I progress. The process involves several structured phases: initially, the design phase focused on gathering requirements, identifying use cases, and ensuring the product aligns with management's vision, followed by communicating the development cycle and designing/prototyping the website using Figma. The development phase will involve building the website using Next.js and Supabase. Afterward, in the testing phase, I will ensure the website functions properly. Finally, during the launch phase, I will launch the website and provide updates on its performance.",
